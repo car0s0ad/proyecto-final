@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "GT Walsheim";
-    src: url('recursos\Fuentes\GT-Walsheim-Regular.ttf') format('truetype');
+    font-family: "Mukta";
+    src: url('Fuentes\Mukta-Regular.ttf') format('truetype');
   }
 
 body{
-    font-family: GT Walsheim;
-    background-image: url(C:\xampp\htdocs\ProyectoFinal\proyecto-final\RECURSOS\FONDOS\foto3.jpg)
+    font-family: Mukta;
+    background-image: url('.././foto3.jpg');
 }
 
 
@@ -35,7 +35,7 @@ section{
     -moz-transition: all 0.2s ease-in-out 0s;
     -ms-transition: all 0.2s ease-in-out 0s;
     transition: all 0.2s ease-in-out 0s;
-    font-family: GT Walsheim;
+    font-family: Mukta;
     font-size:20px;
     color:white;
     padding: 10px 20px 10px 20px;
@@ -68,7 +68,7 @@ section{
 
 .textos2 {
     font-size:35px;
-    font-family: GT Walsheim;
+    font-family: Mukta;
     color:#1B26BC;
     background-color: #FFCBCD;
     text-align:center;
