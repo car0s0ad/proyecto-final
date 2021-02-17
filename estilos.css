@@ -5,13 +5,16 @@
 
 body{
     font-family: Mukta;
-    background-image: url('RECURSOS/FONDOS/foto3.jpg');
+    background-image: url('./RECURSOS/FONDOS/foto3.jpg');
 }
 
-
-header{
-    font-size: 18px;
+h1{
+    font-size: 72px;
+    color: white;
 }
+.navbar-custom { 
+    background-color:rgba(249, 220, 144, 0.5);
+
 
 section{
     font-size: 36px;
