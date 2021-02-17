@@ -5,12 +5,9 @@
 
 body{
     font-family: GT Walsheim;
-    background-image: url(recursos/foto3.jpg)
+    background-image: url(C:\xampp\htdocs\ProyectoFinal\proyecto-final\RECURSOS\FONDOS\foto3.jpg)
 }
 
-.fondo {
-    background-image: url(recursos/foto3.jpg)
-}
 
 header{
     font-size: 18px;
