@@ -1,19 +1,7 @@
 <?php include("includes/header.php") ?>
-    <body class=h100>
-        <main role="main"></main>
-         <section class="col-" id=fondo> 
-                      <div class="container-fluid">
-                       <div class="row">
-
-                        
-               </div>
-
-                      </div>
-        
-              </div>
-            </div>
-          </section>
-                  
+    <html class="h-100">
+    <body class="h-100">
+        <main role="main"></main>        
          
          <section class="col- py-5">
             <div class="container-fluid container-md py-5">  
@@ -23,5 +11,25 @@
 
             </div>
         </section>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+      <h5>espacio</h5>
+    
     </body>
     <?php include("includes/footer.php") ?>
+    </html>
