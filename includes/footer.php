@@ -2,17 +2,22 @@
  <section>
   <div class="container-fluid">
    <div class="row">
-     <div class="col-4">
+     <div class="col-4 py-1">
       <a> <img class="logo" src=./recursos/logo.png width=178,4 height=91,4 alt="logo"> </a>
-      <h5>info de integrantes</h1>
+      <h5>2021 • grupo7.com</h5>
+      <h5>© Todos los derechos reservados</h5>
+      <h5>Antonella Pereira/</h5>
+      <h5>Carolina Dehle/</h5>
+      <h5>Ileana Marinoni/</h5>
+      <h5>Leandro Portillo/</h5>
      </div>
 
      <div class="col-4">
-      <h5>info de contacto</h1>
+      <h5>Posadas</h5>
      </div>
 
       <div class="col-4">
-       <h5>info de redes sociales</h1>
+       <h5>info de redes sociales</h5>
       </div>
 
  </section>
