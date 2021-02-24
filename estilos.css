@@ -17,7 +17,7 @@ h1{
 }
 
 h5{
-    font-size: 20px;
+    font-size: 10px;
     color:white;   
 }
 
@@ -29,8 +29,6 @@ footer{
     background-color:rgba(249, 220, 144, 0.5);
 }
 
-<<<<<<< HEAD
-=======
 .camp-select .mycamp{
     button.btn{
       border-radius: 0;
@@ -60,7 +58,6 @@ footer{
     
   }
 
->>>>>>> 31bf4336a22c5c1a2b26d23d15f6c338b30fe6b2
 
 .botoncito{
     background:#1B26BC;

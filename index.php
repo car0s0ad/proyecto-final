@@ -7,14 +7,14 @@
          <section class="col- py-5">
             <div class="container-fluid container-md py-5">  
                <div class="row align-items-center col-md-6">
-                <h1>Encontrá</h1> <br>
-                <br><h1>tu nuevo hogar</h1>
+                <h1>Encontrá</h1>
+                <h1>tu nuevo hogar</h1>
             </div>
         </section>
 
 <section>
   <div class="row">
-    <div class="col-md-2">
+    <div class="container-fluid  offset-md-1 col-md-2">
       <select class="form-select">
         <option selected>Operación</option>
         <option value="1">Alquiler</option>
@@ -25,7 +25,7 @@
   </div>
 <br>
   <div class="row">
-    <div class="col-md-2">
+    <div class="container-fluid offset-md-1 col-md-2">
       <select class="form-select">
         <option selected> Tipo de Inmueble</option>
         <option value="1">Cualquier tipo de propiedad</option>
@@ -41,7 +41,7 @@
   </div>
   <br>
   <div class="row">
-    <div class="col-md-2">
+    <div class="container-fluid offset-md-1 col-md-2">
       <select class="form-select">
         <option selected>Ambientes</option>
         <option value="1">Monoambiente</option>
@@ -53,30 +53,22 @@
     </div>
   </div>
 </section>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ 
  
 
-   
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
     
     </body>
     <?php include("includes/footer.php") ?>
