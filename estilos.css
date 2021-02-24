@@ -15,6 +15,7 @@ h1{
     font-size: 60px;
     color: white;
 }
+
 h5{
     font-size: 20px;
     color:white;   
@@ -22,12 +23,44 @@ h5{
 
 footer{ 
     background-color:rgba(0, 0, 0, 0.45);
-
 }
+
 .navbar-custom { 
     background-color:rgba(249, 220, 144, 0.5);
 }
 
+<<<<<<< HEAD
+=======
+.camp-select .mycamp{
+    button.btn{
+      border-radius: 0;
+      border-color: #ffffff;
+      border-width: 2px;
+      background-color: transparent;  
+      &:hover{
+        background-color: rgba(0,0,0,.2);  
+        border-color: #ffffff;
+      }
+      .caret{
+        height: 10px;
+        width: 10px;
+        margin-top: -12px;
+        border: none;
+        &:before{
+          font-family: 'FontAwesome';
+          display: inline-block;
+          content:'\f107';
+          color: #fff;
+          font-size: 20px;        
+          // width: 200px;
+          // height: 200px;
+        }
+      }
+    }
+    
+  }
+
+>>>>>>> 31bf4336a22c5c1a2b26d23d15f6c338b30fe6b2
 
 .botoncito{
     background:#1B26BC;
