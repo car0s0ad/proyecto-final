@@ -16,10 +16,9 @@
   <div class="row">
     <div class="col-md-2">
       <select class="form-select">
-        <option selected>Operación</option>
-        <option value="1">Alquiler</option>
-        <option value="2">Venta</option>
-        <option value="3">Alquiler temporal</option>
+        <option selected>Anunciante</option>
+        <option value="1">Dueño directo</option>
+        <option value="2">Inmobiliaria</option>
       </select>
     </div>
   </div>
@@ -27,7 +26,7 @@
   <div class="row">
     <div class="col-md-2">
       <select class="form-select">
-        <option selected> Tipo de Inmueble</option>
+        <option selected>Tipo de Inmueble</option>
         <option value="1">Cualquier tipo de propiedad</option>
         <option value="2">Casa</option>
         <option value="3">Departamento</option>
@@ -35,7 +34,6 @@
         <option value="5">Terreno</option>
         <option value="6">Oficina/Consultorio</option>
         <option value="7">Depósito</option>
-        <option value="8">Quinta</option>
       </select>
     </div>
   </div>
@@ -51,9 +49,10 @@
         <option value="5">5 ambientes</option>
       </select>
     </div>
-  </div>
+    <a class="botoncito" href="#">Buscar <i class="las la-angle-right"></i></a>
+  </div>  
 </section>
- 
+
 
    
       <br>
