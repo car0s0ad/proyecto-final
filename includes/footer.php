@@ -3,32 +3,58 @@
   <div class="container-fluid">
    <div class="row">
    
-     <div class="col-4 py-1">
+     <div class="col-4 mx-5 pt-4">
         <a> <img class="logo" src=./recursos/logo.png width=178,4 height=91,4 alt="logo"> </a>
-        <h5>2021 • grupo7.com</h5>
+        <h5 style="font-size: 12px">2021 • grupo7.com</h5>
+        <h5 style="font-size: 12px">© Todos los derechos reservados</h5>
         <br>
-        <h5>© Todos los derechos reservados</h5>
-        <h5>Antonella Pereira/</h5>
-        <h5>Carolina Dehle/</h5>
-        <h5>Ileana Marinoni/</h5>
-        <h5>Leandro Portillo/</h5>
+        <h5 style="font-size: 12px">Antonella Pereira/ Desarrollo Web</h5>
+        <h5 style="font-size: 12px">Carolina Dehle/ Desarrollo Web</h5>
+        <h5 style="font-size: 12px">Ileana Marinoni/ Desarrollo Web</h5>
+        <h5 style="font-size: 12px">Leandro Portillo/ Desarrollo Web</h5>
      </div>
      
-     <div class="col-4 py-1">
-        <h5>Posadas</h5>
-        <a> <img class="logo"  src="./recursos/ICONOS/pin1.png" href="#" width=20 height=27 alt="logo"> </a> 
+     <div class="col-2  py-5">
+        <h5 class="text-center">Posadas</h5>
         <br>
         <br>
-        <a> <img class="logo"  src="./recursos/ICONOS/wat1.png" href="#" width=27 height=27 alt="logo"> </a> 
+         <div class="d-flex flex-row py-2">
+          <a> <img class="logo mx-2"  src="./recursos/ICONOS/pin1.png" href="#" width=20 height=27 alt="logo"> </a>
+          <h5>Cordoba 2222</h5> 
+         </div> 
+        <br>
+        <br>
+         <div class="d-flex flex-row">
+          <a> <img class="logo mx-2"  src="./recursos/ICONOS/wat1.png" href="#" width=27 height=27 alt="logo"> </a>
+          <h5>+543743499099</h5> 
+         </div> 
+        <br>
+        <br>
+         <div class="d-flex flex-row">
+          <a> <img class="logo mx-2"  src="./recursos/ICONOS/mail1.png" href="#" width=29 height=25 alt="logo"> </a>
+          <h5>grupo7@gmail.com</h5> 
+         </div> 
       </div>
      
-      <div class="col-4 py-1">
-        <h5>Posadas</h5>
-        <a> <img class="logo"  src="./recursos/ICONOS/pin1.png" href="#" width=20 height=27 alt="logo"> </a> 
+      <div class="offset-md-2 col-2 py-5">
+         <div class="d-flex flex-row pt-4">
+          <a> <img class="logo mx-2"  src="./recursos/ICONOS/twiter1.png" href="#" width=28 height=26 alt="logo"> </a>
+         </div> 
         <br>
         <br>
-        <a> <img class="logo"  src="./recursos/ICONOS/wat1.png" href="#" width=27 height=27 alt="logo"> </a> 
-      </div>
+         <div class="d-flex flex-row">
+          <a> <img class="logo mx-2"  src="./recursos/ICONOS/face1.png" href="#" width=23 height=26 alt="logo"> </a>
+         </div>
+        <br>
+        <br>
+         <div class="d-flex flex-row">
+          <a> <img class="logo mx-2"  src="./recursos/ICONOS/imsta1.png" href="#" width=27 height=27 alt="logo"> </a>
+         </div> 
+        <br>
+        <br>
+         <div class="d-flex flex-row">
+          <a> <img class="logo mx-2"  src="./recursos/ICONOS/yout1.png" href="#" width=27 height=25 alt="logo"> </a>
+         </div>  
 
    </div>
  </div>
