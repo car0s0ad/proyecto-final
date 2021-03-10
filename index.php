@@ -12,10 +12,10 @@
             </div>
         </section>
 
-<section>
+<section class= "offset-md-1 col-md-5 mr-md-6">
   <div class="row">
-    <div class="container-fluid  offset-md-1 col-md-2">
-      <select class="form-select">
+    <div class="container-fluid">
+      <select class="form-select col-5">
         <option selected>Anunciante</option>
         <option value="1">Dueño directo</option>
         <option value="2">Inmobiliaria</option>
@@ -24,8 +24,8 @@
   </div>
 <br>
   <div class="row">
-    <div class="container-fluid offset-md-1 col-md-2">
-      <select class="form-select">
+    <div class="container-fluid">
+      <select class="form-select col-5">
         <option selected>Tipo de Inmueble</option>
         <option value="1">Cualquier tipo de propiedad</option>
         <option value="2">Casa</option>
@@ -39,8 +39,8 @@
   </div>
   <br>
   <div class="row">
-    <div class="container-fluid offset-md-1 col-md-2">
-      <select class="form-select">
+    <div class="container-fluid">
+      <select class="form-select col-5">
         <option selected>Ambientes</option>
         <option value="1">Monoambiente</option>
         <option value="2">2 ambientes</option>
@@ -49,7 +49,14 @@
         <option value="5">5 ambientes</option>
       </select>
     </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="row col-5">
+   <div class="container-fluid justify-content-center">
     <a class="botoncito" href="#">Buscar <i class="las la-angle-right"></i></a>
+   </div>
   </div>  
 </section>
 

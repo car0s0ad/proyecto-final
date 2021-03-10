@@ -2,6 +2,9 @@
     font-family: "Mukta";
     src: url('Fuentes\Mukta-Regular.ttf') format('truetype');
   }
+footer{
+    font-size: 20px;
+ }
 
 body{
     font-family: Mukta;
@@ -31,8 +34,8 @@ footer{
 
 
 .botoncito{
-    background:#1B26BC;
-    border: 2px #1B26BC;
+    background: #805690;
+    border: 2px #805690;
     box-sizing: border-box;
     cursor: pointer;
     font-weight: 400;

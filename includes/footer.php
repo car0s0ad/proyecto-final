@@ -13,8 +13,12 @@
       <h5>Leandro Portillo/</h5>
      </div>
 
-     <div class="col-4">
-      <h5>Posadas</h5>
+     <div class="container-fluid col-4">
+      <div class="row">
+       <h5>Posadas</h5>
+       <a> <img lass="logo"  src="./recursos/ICONOS/pin1.png" href="#" width=36 height=37 alt="logo"> </a> 
+       <h5> Córdoba 2291 </h5>
+      </div>
      </div>
 
       <div class="col-4">
