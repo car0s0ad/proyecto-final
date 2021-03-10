@@ -3,9 +3,27 @@
     src: url('Fuentes\Mukta-Regular.ttf') format('truetype');
   }
 .footer{
+    font-family: Mukta;
     font-size: 5px;
     background-color:rgba(0, 0, 0, 0.45);
  }
+ .nav-item:hover {
+  background: rgba(249, 220, 144, 0.5)
+}
+.nav-item {
+  border-radius: 5px;
+}
+.form-select:hover {
+  background:#FCE45C;
+}
+.form-select {
+    border: 1px solid #805690;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px #ccc;
+    font-family: Mukta;
+ }
+
 
 body{
     font-family: Mukta;
