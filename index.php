@@ -3,7 +3,7 @@
     <html class="h-100">
     <body class="h-100">
         <main role="main"></main>        
-         
+  
          <section class="col- py-5">
             <div class="container-fluid container-md py-5">  
                <div class="row align-items-center col-md-6">
@@ -12,7 +12,7 @@
             </div>
         </section>
 
-  
+  <form method="get">
     <section class= "offset-md-1 col-md-5 mr-md-6">
     <div class="recuadrito">
       <div class="row">
@@ -57,12 +57,14 @@
       <br>
       <div class="row col-5">
       <div class="container-fluid justify-content-center">
-        <a class="botoncito" href="#">Buscar <i class="las la-angle-right"></i></a>
+        <input type="submit" value="Buscar" href="#"></a>
       </div>
       </div>
       </div>
     </section>
+</form>
   
+
 <br>
 <br>
 <br>

@@ -3,7 +3,8 @@
     src: url('Fuentes\Mukta-Regular.ttf') format('truetype');
   }
 footer{
-    font-size: 20px;
+    font-size: 10px;
+    background-color:rgba(0, 0, 0, 0.45);
  }
 
 body{
@@ -22,10 +23,6 @@ h1{
 h5{
     font-size: 10px;
     color:white;   
-}
-
-footer{ 
-    background-color:rgba(0, 0, 0, 0.45);
 }
 
 .navbar-custom { 
@@ -67,14 +64,38 @@ footer{
     border-radius: 25px;
 }
 
-.select{
-    background:#FCE45C;
+  input[type="submit"] {
+    margin: 10px 0 10px 3px;
+    width: 100px;
+    padding: 5px;
+    font-size: 18px;
+
+    cursor: pointer;
+    border: 1px solid #805690;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px #ccc;
+    transition: 150ms linear all;
+    font-family: Mukta;
+  }
+
+  input[type="submit"]:hover {
+    background: #805690;
+  }
+
+  input[type="submit"]:focus, input[type="submit"]:active {
+    outline: none;
+  }
+
+  .justwrap {
+    margin-bottom: 50px;
+  }
+
+  form {
+    margin: 35px 15px 0;
+  }
 
 
-
-
-
-}
 .bloque1{
     margin:90px;
 
