@@ -17,14 +17,12 @@
   background:#FCE45C;
 }
 .form-select {
-    border: 1px solid #805690;
+    border-color: 1px solid #805690;
     background: #ffffff;
     border-radius: 5px;
     box-shadow: 2px 2px 15px #ccc;
     font-family: Mukta;
  }
-
-
 body{
     font-family: Mukta;
     background-image: url('./RECURSOS/FONDOS/foto3.jpg');

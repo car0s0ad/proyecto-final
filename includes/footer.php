@@ -12,19 +12,26 @@
       <h5>Ileana Marinoni/</h5>
       <h5>Leandro Portillo/</h5>
      </div>
-
-     <div class="container-fluid col-4">
-      <div class="row">
-       <h5>Posadas</h5>
-       <a> <img lass="logo"  src="./recursos/ICONOS/pin1.png" href="#" width=36 height=37 alt="logo"> </a> 
-       <h5> Córdoba 2291 </h5>
+     
+     <div class="col-4 py-1">
+        <h5>Posadas</h5>
+        <a> <img class="logo"  src="./recursos/ICONOS/pin1.png" href="#" width=20 height=27 alt="logo"> </a> 
+        <br>
+        <br>
+        <a> <img class="logo"  src="./recursos/ICONOS/wat1.png" href="#" width=27 height=27 alt="logo"> </a> 
+       </div>
       </div>
-     </div>
-
-      <div class="col-4">
-       <h5>info de redes sociales</h5>
+     
+      <div class="col-4 py-1">
+        <h5>Posadas</h5>
+        <a> <img class="logo"  src="./recursos/ICONOS/pin1.png" href="#" width=20 height=27 alt="logo"> </a> 
+        <br>
+        <br>
+        <a> <img class="logo"  src="./recursos/ICONOS/wat1.png" href="#" width=27 height=27 alt="logo"> </a> 
+       </div>
       </div>
-
+   </div>
+ </div>
  </section>
 </footer>
 <!--JS BOOTSTRAP-->
