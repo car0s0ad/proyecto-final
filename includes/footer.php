@@ -5,6 +5,7 @@
      <div class="col-4 py-1">
       <a> <img class="logo" src=./recursos/logo.png width=178,4 height=91,4 alt="logo"> </a>
       <h5>2021 • grupo7.com</h5>
+      <br>
       <h5>© Todos los derechos reservados</h5>
       <h5>Antonella Pereira/</h5>
       <h5>Carolina Dehle/</h5>
