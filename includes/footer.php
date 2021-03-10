@@ -2,15 +2,16 @@
  <section>
   <div class="container-fluid">
    <div class="row">
+   
      <div class="col-4 py-1">
-      <a> <img class="logo" src=./recursos/logo.png width=178,4 height=91,4 alt="logo"> </a>
-      <h5>2021 • grupo7.com</h5>
-      <br>
-      <h5>© Todos los derechos reservados</h5>
-      <h5>Antonella Pereira/</h5>
-      <h5>Carolina Dehle/</h5>
-      <h5>Ileana Marinoni/</h5>
-      <h5>Leandro Portillo/</h5>
+        <a> <img class="logo" src=./recursos/logo.png width=178,4 height=91,4 alt="logo"> </a>
+        <h5>2021 • grupo7.com</h5>
+        <br>
+        <h5>© Todos los derechos reservados</h5>
+        <h5>Antonella Pereira/</h5>
+        <h5>Carolina Dehle/</h5>
+        <h5>Ileana Marinoni/</h5>
+        <h5>Leandro Portillo/</h5>
      </div>
      
      <div class="col-4 py-1">
@@ -19,7 +20,6 @@
         <br>
         <br>
         <a> <img class="logo"  src="./recursos/ICONOS/wat1.png" href="#" width=27 height=27 alt="logo"> </a> 
-       </div>
       </div>
      
       <div class="col-4 py-1">
@@ -28,8 +28,8 @@
         <br>
         <br>
         <a> <img class="logo"  src="./recursos/ICONOS/wat1.png" href="#" width=27 height=27 alt="logo"> </a> 
-       </div>
       </div>
+
    </div>
  </div>
  </section>
