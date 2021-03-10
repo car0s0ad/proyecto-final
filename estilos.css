@@ -2,7 +2,7 @@
     font-family: "Mukta";
     src: url('Fuentes\Mukta-Regular.ttf') format('truetype');
   }
-footer{
+.footer{
     font-size: 5px;
     background-color:rgba(0, 0, 0, 0.45);
  }

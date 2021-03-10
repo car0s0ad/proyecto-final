@@ -6,7 +6,7 @@
   
          <section class="col- pt-5">
             <div class="container-fluid container-md pt-5">  
-               <div class="row align-items-center col-md-6">
+               <div class="row align-items-center ml-2 col-md-5">
                 <h1>Encontrá</h1>
                 <h1>tu nuevo hogar</h1>
             </div>
