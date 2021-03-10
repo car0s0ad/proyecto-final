@@ -4,8 +4,8 @@
     <body class="h-100">
         <main role="main"></main>        
   
-         <section class="col- py-5">
-            <div class="container-fluid container-md py-5">  
+         <section class="col- pt-5">
+            <div class="container-fluid container-md pt-5">  
                <div class="row align-items-center col-md-6">
                 <h1>Encontrá</h1>
                 <h1>tu nuevo hogar</h1>
