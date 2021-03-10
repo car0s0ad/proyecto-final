@@ -53,8 +53,6 @@
   </div>  
 </section>
 
-<<<<<<< HEAD
-=======
 <br>
 <br>
 <br>
@@ -68,9 +66,6 @@
 <br>
 <br>
  
- 
->>>>>>> bddc7717e67c1ea95ed74d47bf2cb4fb07382df6
-
     
     </body>
     <?php include("includes/footer.php") ?>

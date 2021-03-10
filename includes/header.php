@@ -10,24 +10,24 @@
         <link rel="stylesheet" href="estilos.css">
     </head>
     <header> 
-    <nav class="navbar navbar-expand-md navbar-light navbar-custom">
-  <a> <img class="logo" src=./recursos/logo.png width=178,4 height=91,4 alt="logo"> </a>
+    <nav class="navbar navbar-expand-md navbar-light navbar-custom" >
+  <a href="index.php"> <img lass="logo"  src="./recursos/logo.png" href="index.php" width=178,4 height=91,4 alt="logo"> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Propiedades</a>
+        <a class="nav-link" href="propiedades.php">Propiedades</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Publicar mi inmueble</a>
+        <a class="nav-link" href="publicar.php">Publicar mi inmueble</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Sobre nuestro proyecto</a>
+        <a class="nav-link" href="sobreesteproyecto.php">Sobre nuestro proyecto</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contacto</a>
+        <a class="nav-link" href="contacto.php">Contacto</a>
       </li>
     </ul>
   </div>
