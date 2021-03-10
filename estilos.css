@@ -32,7 +32,13 @@ footer{
     background-color:rgba(249, 220, 144, 0.5);
 }
 
-
+.recuadrito{
+    background:rgba(249, 220, 144, 0.5);
+    height: 398px;
+    width: 300px;
+    padding: 60px 10px 20px 50px;
+    
+}
 .botoncito{
     background: #805690;
     border: 2px #805690;
@@ -61,7 +67,14 @@ footer{
     border-radius: 25px;
 }
 
+.select{
+    background:#FCE45C;
 
+
+
+
+
+}
 .bloque1{
     margin:90px;
 
