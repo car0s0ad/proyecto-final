@@ -11,7 +11,15 @@
                 <h1>tu nuevo hogar</h1>
             </div>
         </section>
-<H1>hola soy el contacto</H1>
+<div class="offset-md-2 col-2 py-1">
+        <H3>Ileana Marinoni</H3>
+            <div class="d-flex flex-row pt-4">
+                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ileana-marinoni-18458b1a4/"> <img class="logo mx-2" src="./recursos/ICONOS/in1.png" href="#" width=30 height=30 alt="logo"> </a>
+            </div> 
+</div>
+<H3>Carolina Dehle</H3>
+<H3>Leandro Portillo</H3>
+<H3>Antonella Pereira</H3>
 
 <br>
 <br>

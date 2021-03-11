@@ -11,7 +11,7 @@
     </head>
     <header> 
     <nav class="navbar navbar-expand-md navbar-light navbar-custom" >
-  <a href="index.php"> <img lass="logo"  src="./recursos/logo.png" href="index.php" width=178,4 height=91,4 alt="logo"> </a>
+  <a href="index.php"> <img lass="logo"  src="./recursos/logo.png" width=178,4 height=91,4 alt="logo"> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
