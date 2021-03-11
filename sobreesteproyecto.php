@@ -8,8 +8,7 @@
          <section class="col- py-5">
             <div class="container-fluid container-md py-5">  
                <div class="row align-items-center col-md-6">
-                <h1>Encontrá</h1>
-                <h1>tu nuevo hogar</h1>
+                <h1 class="neon">Sobre este proyecto</h1>
             </div>
         </section>
 <H5>Somos grupo 7, un grupo de estudiantes que busca mejorar la experiencia de quienes desean radicarse en nuestra ciudad. 
