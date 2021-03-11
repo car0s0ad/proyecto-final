@@ -17,16 +17,16 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
+      <li class="nav-item mx-1">
         <a class="nav-link" href="propiedades.php">Propiedades</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item mx-1">
         <a class="nav-link" href="publicar.php">Publicar mi inmueble</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item mx-1">
         <a class="nav-link" href="sobreesteproyecto.php">Sobre nuestro proyecto</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item mx-1">
         <a class="nav-link" href="contacto.php">Contacto</a>
       </li>
     </ul>

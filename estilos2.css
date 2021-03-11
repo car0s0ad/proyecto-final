@@ -13,6 +13,10 @@
 .nav-item {
   border-radius: 5px;
 }
+.nav-link{    
+  font-family: Mukta;
+  font-size: 18-px;
+}
 .form-select:hover {
   background:#FCE45C;
 }
@@ -42,16 +46,20 @@
     0 0 100px #0ff,
     0 0 150px #0ff;
 }
-
-    
-h1{
-    font-size: 60px;
+   
+h1{ font-family: Mukta;
+    font-size: 70px;
     color: white;
 }
-
 h5{
+    font-family: Mukta;
     font-size: 10px;
     color:white;   
+}
+p{
+  font-family: Mukta;
+  font-size: 18px;
+  color:white;   
 }
 
 .navbar-custom { 
@@ -129,4 +137,7 @@ h5{
 
 .seccion2 {
     background-color: #FFCBCD;
+}
+.sobrenosotros{
+  background-color:rgba(249, 220, 144, 0.5);
 }
