@@ -38,13 +38,15 @@
      
       <div class="offset-md-2 col-2 py-5">
          <div class="d-flex flex-row pt-4">
-          <a> <img class="logo mx-2"  src="./recursos/ICONOS/twiter1.png" href="#" width=28 height=26 alt="logo"> </a>
+          <a> <img class="logo mx-2"  src="./recursos/ICONOS/twiter1.png" href="#" width=28 height=25 alt="logo"> </a>
          </div> 
         <br>
         <br>
+        <br>
          <div class="d-flex flex-row">
-          <a> <img class="logo mx-2"  src="./recursos/ICONOS/face1.png" href="#" width=23 height=26 alt="logo"> </a>
+          <a> <img class="logo mx-2"  src="./recursos/ICONOS/face1.png" href="#" width=18 height=31 alt="logo"> </a>
          </div>
+        <br>
         <br>
         <br>
          <div class="d-flex flex-row">
@@ -52,8 +54,9 @@
          </div> 
         <br>
         <br>
+        <br>
          <div class="d-flex flex-row">
-          <a> <img class="logo mx-2"  src="./recursos/ICONOS/yout1.png" href="#" width=27 height=25 alt="logo"> </a>
+          <a> <img class="logo mx-2"  src="./recursos/ICONOS/yout1.png" href="#" width=38 height=26 alt="logo"> </a>
          </div>  
 
    </div>
