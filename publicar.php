@@ -7,11 +7,9 @@
          <section class="col- py-5">
             <div class="container-fluid container-md py-5">  
                <div class="row align-items-center col-md-6">
-                <h1>Encontrá</h1>
-                <h1>tu nuevo hogar</h1>
             </div>
         </section>
-<H1>hola publico</H1>
+<a>¿Querés publicar tu inmueble?</a> <a href='login/signup.php'> Registrate </a> <a> o </a> <a href='login/login.php'> Iniciá sesion </a>
 
 <br>
 <br>

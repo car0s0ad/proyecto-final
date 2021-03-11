@@ -35,7 +35,6 @@ body{
     background-attachment: fixed;
     background-size: 100% auto;
 }
-
     
 h1{
     font-size: 70px;
@@ -99,24 +98,6 @@ p{
     margin:90px;
 
 }
-
-
-
-.textito {
-    font-weight:600;
-}
-
-.texto {    
-    font-weight:36px;
-    line-height:19px;
-}
-
-.textos2 {
-    font-size:35px;
-    font-family: Mukta;
-    color:#1B26BC;
-    background-color: #FFCBCD;
-    text-align:center;
 
 }
 .mb-3 {
