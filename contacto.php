@@ -1,7 +1,7 @@
 <?php include("includes/header.php") ?>
 <?php include("includes/bootstrap.html") ?>
     <html class="h-100">
-    <body class="h-100">
+    <body>
         <main role="main"></main>        
          
          <section class="col- py-5">

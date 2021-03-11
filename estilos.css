@@ -24,7 +24,8 @@
     box-shadow: 2px 2px 15px #ccc;
     font-family: Mukta;
  }
- .h-100{
+ 
+body{
     font-family: Mukta;
     background-image: url('./RECURSOS/FONDOS/foto3.jpg');
     background-repeat: no-repeat;
@@ -32,13 +33,6 @@
     background-size: 100% auto;
 }
 
-.fondo2{
-  font-family: Mukta;
-  background-image: url('./RECURSOS/FONDOS/foto2.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
     
 h1{
     font-size: 60px;
