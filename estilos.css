@@ -49,6 +49,16 @@ p{
   font-size: 20px;
   color:white;   
 }
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
 .navbar-custom { 
     background-color:rgba(249, 220, 144, 0.5);
 }
@@ -106,4 +116,17 @@ p{
 
 .seccion2 {
     background-color: #FFCBCD;
+}
+.publicar {
+  background:rgba(249, 220, 144, 0.5);
+  font-family: Mukta;
+  font-size: 30px;
+  color: white;
+
+}
+.contactar {
+  background:rgba(249, 220, 144, 0.5);
+  font-family: Mukta;
+  font-size: 30px;
+  color: white;
 }

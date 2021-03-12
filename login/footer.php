@@ -42,6 +42,7 @@
       <div class="offset-md-2 col-2 py-5">
          <div class="d-flex flex-row pt-4">
           <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/"> <img class="logo mx-2" src="../recursos/ICONOS/twiter1.png" href="#" width=28 height=25 alt="logo"> </a>
+
          </div> 
         <br>
         <br>

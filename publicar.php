@@ -3,13 +3,17 @@
     <html class="h-100">
     <body class="h-100">
         <main role="main"></main>        
-         
+         <br>
          <section class="col- py-5">
-            <div class="container-fluid container-md py-5">  
-               <div class="row align-items-center col-md-6">
+           <div class="publicar col-6 mx-auto py-5" style="width: 400px;">  
+            <div class="text-center">
+               <a>¿Querés publicar tu inmueble?</a> 
+               <br>
+               <a href='login/signup.php'> Registrate </a> <a> o </a> <a href='login/login.php'> Iniciá sesión </a>
             </div>
+           </div>
         </section>
-<a>¿Querés publicar tu inmueble?</a> <a href='login/signup.php'> Registrate </a> <a> o </a> <a href='login/login.php'> Iniciá sesion </a>
+
 
 <br>
 <br>

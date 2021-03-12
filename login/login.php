@@ -43,7 +43,7 @@
       <p> <?= $message ?></p>
     <?php endif; ?>
 
-    <h1>Inicia Sesión</h1>
+    <h1 Class="sesion">Iniciar Sesión</h1>
     <span>o <a href="signup.php">Regístrate</a></span>
 
     <form action="login.php" method="POST">
