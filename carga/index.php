@@ -12,7 +12,7 @@
             </div>
         </section>
 
-  <form action="resultados.php" method="get">
+  <form method="get">
     <section class= "offset-md-1 col-md-5 mr-md-6">
     <div class="recuadrito">
       <div class="row">
@@ -57,7 +57,7 @@
       <br>
       <div class="row col-5">
       <div class="container-fluid justify-content-center">
-      <input type="submit" value="Buscar"></a>
+        <input type="submit" value="Buscar" href="#"></a>
       </div>
       </div>
       </div>
