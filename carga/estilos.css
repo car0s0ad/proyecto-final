@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Mukta";
+    src: url('Fuentes\Mukta-Regular.ttf') format('truetype');
+  }
+.footer{
+    font-family: Mukta;
+    font-size: 5px;
+    background-color:rgba(0, 0, 0, 0.45);
+ }
+ .nav-item:hover {
+  background: rgba(249, 220, 144, 0.5)
+}
+.nav-item {
+  border-radius: 5px;
+}
+.nav-link{    
+  font-family: Mukta;
+  font-size: 18px;
+}
+.form-select:hover {
+  background:#FCE45C;
+}
+
+.form-select {
+    border-color: 1px solid #805690;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px #ccc;
+    font-family: Mukta;
+ }
+
+body{
+    font-family: Mukta;
+    background-image: url('../RECURSOS/FONDOS/foto3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    font-family: Mukta;
+    text-align: center;
+}
+
+h1{
+  font-size: 70px;
+  color: white;
+}
+
+h5{
+  font-size: 20px;
+  color:white;   
+}
+p{
+font-size: 20px;
+color:white;   
+}
+.recuadrito{
+  background:rgba(249, 220, 144, 0.5);
+  height: 398px;
+  width: 300px;
+  padding: 60px 10px 20px 50px;
+  
+}
+.navbar-custom { 
+    background-color:rgba(249, 220, 144, 0.5);
+}
+
+.bloque1{
+  margin:90px;
+
+}
+
+}
+.mb-3 {
+  font-weight: 800;
+}
+
+.seccion2 {
+  background-color: #FFCBCD;
+}
+/* Input Forms*/
+input[type="text"], input[type="password"]{
+  outline: none;
+  padding: 20px;
+  display: block;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 20px auto;
+  font-family: Mukta;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  color: #fff;
+  background: #805690;
+  width: 320px;
+  margin: 20px auto;
+  margin-top: 0;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: Mukta;
+
+}
+input[type="submit"]:hover {
+  background-color: #A571B9;
+  font-family: Mukta;
+}
