@@ -8,8 +8,8 @@
         <br>
         <br>
         <br>
-        <h5 style="font-size: 12px">2021 • grupo7.com</h5>
-        <h5 style="font-size: 12px">© Todos los derechos reservados</h5>
+        <br>
+        <br>
         <br>
         <h5 style="font-size: 12px">Antonella Pereira/ Desarrollo Web</h5>
         <h5 style="font-size: 12px">Carolina Dehle/ Desarrollo Web</h5>
@@ -40,31 +40,41 @@
       </div>
      
       <div class="offset-md-2 col-2 py-5">
-         <div class="d-flex flex-row pt-4">
+         <h5 class="text-center">Seguinos en:</h5>
+         <div class="d-flex flex-row justify-content-center pt-2">
           <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/"> <img class="logo mx-2" src="../recursos/ICONOS/twiter1.png" href="#" width=28 height=25 alt="logo"> </a>
-
          </div> 
         <br>
-        <br>
-        <br>
-         <div class="d-flex flex-row">
+       
+        
+         <div class="d-flex flex-row justify-content-center">
           <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/"> <img class="logo mx-2"  src="../recursos/ICONOS/face1.png" href="#" width=18 height=31 alt="logo"> </a>
          </div>
         <br>
-        <br>
-        <br>
-         <div class="d-flex flex-row">
+       
+      
+         <div class="d-flex flex-row justify-content-center">
           <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/" > <img class="logo mx-2"  src="../recursos/ICONOS/imsta1.png" href="#" width=27 height=27 alt="logo"> </a>
          </div> 
         <br>
-        <br>
-        <br>
-         <div class="d-flex flex-row">
+       
+        
+         <div class="d-flex flex-row justify-content-center">
           <a target="_blank" rel="noopener noreferrer" href="https://youtube.com/"> <img class="logo mx-2"  src="../recursos/ICONOS/yout1.png" href="#" width=38 height=26 alt="logo"> </a>
          </div>  
-
    </div>
  </div>
+
+ 
+  <div class="container-fluid">
+   <div class="row">
+         <div class="d-flex flex-row">
+          <div class= "col-6 mx-auto text-center">
+           <h5 style="font-size: 12px">2021 • grupo7.com © Todos los derechos reservados</h5>
+          </div>
+         </div>
+   </div>
+   </div>
  </section>
 </footer>
 <!--JS BOOTSTRAP-->
