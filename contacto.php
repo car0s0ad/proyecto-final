@@ -11,41 +11,50 @@
             </div>
         </section>
          
-        <section class="contactar col-4 mx-auto py-5 justify-content-center">
-         
-       
-             <div class="d-flex flex-row ml-5 py-2">
-               <h5 class="align-self-center">Antonella Pereira</h5>
-               <br>
-               <a href="mailto:grupo7@gmail.com"> <img class="logo mx-2"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
-               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ileana-marinoni-18458b1a4/"> <img class="logo mx-2" src="./recursos/ICONOS/in2.png" href="#" width=30 height=30 alt="logo"> </a>
-             </div>
-             
-             <div class="d-flex flex-row ml-5 py-2">
-               <h5 class="align-self-center">Carolina Dehle</h5>
-               <br>
-               <a href="mailto:grupo7@gmail.com"> <img class="logo mx-2"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
-               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ileana-marinoni-18458b1a4/"> <img class="logo mx-2" src="./recursos/ICONOS/in2.png" href="#" width=30 height=30 alt="logo"> </a>
-             </div>
-             
-             <div class="d-flex flex-row ml-5 py-2">
-               <h5 class="align-self-center">Ileana Marinoni</h5>
-               <br>
-               <a href="mailto:grupo7@gmail.com"> <img class="logo mx-2"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
-               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ileana-marinoni-18458b1a4/"> <img class="logo mx-2" src="./recursos/ICONOS/in2.png" href="#" width=30 height=30 alt="logo"> </a>
-             </div>
+        <section class="contactar col-4 offset-4 py-5">
+          <div class= "container-fluid">     
+                <div class="row">
+                      <div class="col d-flex justify-content-center">
+                          <h5 class="align-self-center">Antonella Pereira</h5>
+                      </div>
+                      <div class="col-auto d-flex">
+                          <a href="mailto:grupo7@gmail.com"> <img class="logo mr-4"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ileana-marinoni-18458b1a4/"> <img class="logo mr-5" src="./recursos/ICONOS/in2.png" href="#" width=30 height=30 alt="logo"> </a>
+                      </div>
+                 </div>                   
+                      
+                <div class="row">
+                      <div class="col d-flex justify-content-center">
+                          <h5 class="align-self-center">Carolina Dehle</h5>
+                      </div>
+                      <div class="col-auto d-flex">
+                          <a href="mailto:grupo7@gmail.com"> <img class="logo mr-4"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ileana-marinoni-18458b1a4/"> <img class="logo mr-5" src="./recursos/ICONOS/in2.png" href="#" width=30 height=30 alt="logo"> </a>
+                      </div>
+                 </div>
+                      
+                <div class="row">
+                      <div class="col d-flex justify-content-center">
+                          <h5 class="align-self-center">Ileana Marinoni</h5>
+                      </div>
+                      <div class="col-auto d-flex">
+                          <a href="mailto:grupo7@gmail.com"> <img class="logo mr-4"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ileana-marinoni-18458b1a4/"> <img class="logo mr-5" src="./recursos/ICONOS/in2.png" href="#" width=30 height=30 alt="logo"> </a>
+                      </div>
+                </div>
+                      
+                <div class="row">
+                      <div class="col d-flex justify-content-center">
+                          <h5 class="align-self-center">Leandro Portillo</h5>
+                      </div>
+                      <div class="col-auto d-flex">
+                          <a href="mailto:grupo7@gmail.com"> <img class="logo mr-4"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ileana-marinoni-18458b1a4/"> <img class="logo mr-5" src="./recursos/ICONOS/in2.png" href="#" width=30 height=30 alt="logo"> </a>
+                      </div>
+                 </div>
             
-             <div class="d-flex flex-row ml-5 pt-2">
-               <h5 class="align-self-center">Leandro Portillo</h5>
-               <a href="mailto:grupo7@gmail.com"> <img class="logo mx-2"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
-               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ileana-marinoni-18458b1a4/"> <img class="logo mx-2" src="./recursos/ICONOS/in2.png" href="#" width=30 height=30 alt="logo"> </a>
-               
-               
-             </div>
-            
-         
-         
-        </section>
+          </div>
+       </section>
 <br>
 <br>
 <br>
