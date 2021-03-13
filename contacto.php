@@ -11,7 +11,7 @@
             </div>
         </section>
          
-        <section class="contactar col-4 mx-auto py-5">
+        <section class="contactar col-4 mx-auto py-5 justify-content-center">
          
        
              <div class="d-flex flex-row ml-5 py-2">
