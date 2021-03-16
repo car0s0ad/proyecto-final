@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Mukta";
+    src: url('Fuentes\Mukta-Regular.ttf') format('truetype');
+  }
+.footer{
+    font-family: Mukta;
+    font-size: 5px;
+    background-color:rgba(0, 0, 0, 0.45);
+ }
+ .nav-item:hover {
+  background: rgba(249, 220, 144, 0.5)
+}
+.nav-item {
+  border-radius: 5px;
+}
+.nav-link{    
+  font-family: Mukta;
+  font-size: 18px;
+}
+.form-select:hover {
+  background:#FCE45C;
+}
+.form-select {
+    border-color: 1px solid #805690;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px #ccc;
+    font-family: Mukta;
+ }
+ 
+body{
+    font-family: Mukta;
+    background-image: url('../RECURSOS/FONDOS/foto3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+    
+h1{
+    font-size: 70px;
+    color: white;
+}
+h2 {
+   font-family: Mukta;
+   font-size: 10px;
+   color: black;
+}
+
+h5{
+    font-size: 10px;
+    color:white;   
+}
+p{
+  font-size: 20px;
+  color:white;   
+}
+.neon {
+  color: #fff;
+  text-shadow:
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+.navbar-custom { 
+    background-color:rgba(249, 220, 144, 0.5);
+}
+
+.recuadrito{
+    background:rgba(249, 220, 144, 0.5);
+    height: 398px;
+    width: 300px;
+    padding: 60px 10px 20px 50px;
+    
+}
+
+
+  input[type="submit"] {
+    margin: 10px 0 10px 3px;
+    width: 100px;
+    padding: 5px;
+    font-size: 18px;
+
+    cursor: pointer;
+    border: 1px solid #805690;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px #ccc;
+    transition: 150ms linear all;
+    font-family: Mukta;
+  }
+
+  input[type="submit"]:hover {
+    background: #805690;
+  }
+
+  input[type="submit"]:focus, input[type="submit"]:active {
+    outline: none;
+  }
+
+  .justwrap {
+    margin-bottom: 50px;
+  }
+
+  form {
+    margin: 35px 15px 0;
+  }
+
+
+.bloque1{
+    margin:90px;
+
+}
+
+}
+.mb-3 {
+    font-weight: 800;
+}
+
+.seccion2 {
+    background-color: #FFCBCD;
+}
+.publicar {
+  background:rgba(249, 220, 144, 0.5);
+  font-family: Mukta;
+  font-size: 30px;
+  color: white;
+
+}
+.contactar {
+  background:rgba(249, 220, 144, 0.5);
+  font-family: Mukta;
+  font-size: 30px;
+  color: white;
+}
+.box-image {
+  background-color: lightgrey;
+}
+.box-content {
+  background-color: white;
+}

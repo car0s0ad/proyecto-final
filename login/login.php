@@ -46,7 +46,7 @@
     <h1 Class="sesion">Iniciar Sesión</h1>
     <span>o <a href="signup.php">Regístrate</a></span>
 
-    <form action="login.php" method="POST">
+    <form action="../crud/carga.php" method="POST">
       <input name="email" type="text" placeholder="Ingrese su correo">
       <input name="password" type="password" placeholder="Ingrese su contraseña">
       <input type="submit" value="Enviar">
