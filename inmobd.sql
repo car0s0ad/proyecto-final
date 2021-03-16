@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 
 --
 -- Estructura de tabla para la tabla `propiedades`
--
+--
 
 CREATE TABLE `propiedades` (
   `propiedad_id` int(10) NOT NULL,
