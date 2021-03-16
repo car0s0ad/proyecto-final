@@ -3,7 +3,7 @@
       <div class="container-fluid">
          <div class="row">
             <div class="col-4 mx-5 pt-4">
-                  <a href="index.php" > <img class="logo" src=../recursos/logo.png width=178,4 height=91,4 alt="logo"> </a>
+                  <a href="../index.php" > <img class="logo" src=../recursos/logo.png width=178,4 height=91,4 alt="logo"> </a>
                   <br>
                   <br>
                   <br>

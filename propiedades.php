@@ -17,7 +17,7 @@
                              <img class="logo"  src="./recursos/ICONOS/pin1.png" href="#" width=20 height=27 alt="logo">
                           </div>
                           <div class="box-content text-center py-4">
-                              <h2>Datos del inmueble</h2>
+                              <h4>Datos del inmueble</h4>
                           </div>
                       </div>
                   </div>
@@ -27,7 +27,7 @@
                              <img class="logo"  src="./recursos/ICONOS/pin1.png" href="#" width=20 height=27 alt="logo">
                           </div>
                           <div class="box-content text-center py-4">
-                              <h2>Datos del inmueble</h2>
+                              <h4>Datos del inmueble</h4>
                           </div>
                       </div>
                   </div>
@@ -37,7 +37,7 @@
                              <img class="logo"  src="./recursos/ICONOS/pin1.png" href="#" width=20 height=27 alt="logo">
                           </div>
                           <div class="box-content text-center py-4">
-                              <h2>Datos del inmueble</h2>
+                              <h4>Datos del inmueble</h4>
                           </div>
                       </div>
                   </div>
@@ -47,7 +47,7 @@
                              <img class="logo"  src="./recursos/ICONOS/pin1.png" href="#" width=20 height=27 alt="logo">
                           </div>
                           <div class="box-content text-center py-4">
-                              <h2>Datos del inmueble</h2>
+                              <h4>Datos del inmueble</h4>
                           </div>
                       </div>
                   </div>

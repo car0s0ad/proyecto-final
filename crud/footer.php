@@ -11,37 +11,38 @@
         <br>
         <br>
         <br>
-        <h5 style="font-size: 12px">Antonella Pereira/ Desarrollo Web</h5>
-        <h5 style="font-size: 12px">Carolina Dehle/ Desarrollo Web</h5>
-        <h5 style="font-size: 12px">Ileana Marinoni/ Desarrollo Web</h5>
-        <h5 style="font-size: 12px">Leandro Portillo/ Desarrollo Web</h5>
+        <h5 style="font-size: 14px">Antonella Pereira/ Desarrollo Web</h5>
+        <h5 style="font-size: 14px">Carolina Dehle/ Desarrollo Web</h5>
+        <h5 style="font-size: 14px">Ileana Marinoni/ Desarrollo Web</h5>
+        <h5 style="font-size: 14px">Leandro Portillo/ Desarrollo Web</h5>
      </div>
      
      <div class="col-2  py-5">
         <h5 class="text-center">Posadas - Misiones</h5>
         <br>
         <br>
-         <div class="d-flex flex-row py-2">
+         <div class="d-flex flex-row pt-2">
           <a target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/HKssVxXp4uCRwfHo6"> <img class="logo mx-2"  src="../recursos/ICONOS/pin1.png" href="#" width=20 height=27 alt="logo"> </a>
           <h5>Cordoba 2291</h5> 
-         </div> 
+        </div> 
         <br>
         <br>
-         <div class="d-flex flex-row">
-          <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=+543743499099&text=Hola!"> <img class="logo mx-2"  src="../recursos/ICONOS/wat1.png" href="#" width=27 height=27 alt="logo"> </a>
-          <h5>+543743499099</h5> 
-         </div> 
-        <br>
-        <br>
-         <div class="d-flex flex-row">
+        <div class="d-flex flex-row pt-2">
           <a href="mailto:grupo7@gmail.com"> <img class="logo mx-2"  src="../recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
           <h5>grupo7@gmail.com</h5> 
-         </div> 
+        </div>
+        <br>
+        <br> 
+         <div class="d-flex flex-row pt-2">
+          <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=+543743499099&text=Hola!"> <img class="logo mx-2"  src="../recursos/ICONOS/wat1.png" href="#" width=27 height=27 alt="logo"> </a>
+          <h5>+543743499099</h5> 
+         </div>
+
       </div>
      
       <div class="offset-md-2 col-2 py-5">
          <h5 class="text-center">Seguinos en:</h5>
-         <div class="d-flex flex-row justify-content-center pt-2">
+         <div class="d-flex flex-row justify-content-center pt-4">
           <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/"> <img class="logo mx-2" src="../recursos/ICONOS/twiter1.png" href="#" width=28 height=25 alt="logo"> </a>
          </div> 
         <br>
@@ -65,7 +66,8 @@
    </div>
  </div>
 
- 
+  <br>
+  <br>
   <div class="container-fluid">
    <div class="row">
          <div class="d-flex flex-row">
