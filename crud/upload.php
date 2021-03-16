@@ -28,7 +28,7 @@ if (isset($_POST['guardar'])){
 	 }
 
 	$insertimg = "INSERT INTO propiedades_imagen(image_url) VALUES('$new_img_name')";
-    $result = mysqli_query($conn, $insertprop);
+    $result = mysqli_query($conn, $insertimg);
 	if (!$result) {
 		die("Error en la consulta");
 	 }
