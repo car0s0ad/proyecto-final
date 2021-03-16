@@ -1,12 +1,14 @@
-<?php
+<?php  
 
-session_start();
+$sname = "localhost";
+$uname = "root";
+$password = "";
 
-$conn = mysqli_connect(
-    'localhost',
-    'root',
-    '',
-    'inmobd'
-);
+$db_name = "inmobd";
 
-?>
+$conn = mysqli_connect($sname, $uname, $password, $db_name);
+
+if (!$conn) {
+	echo "Connection failed!";
+	exit();
+}

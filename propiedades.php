@@ -7,7 +7,7 @@ $query = "select * from propiedades";
 $result = mysqli_query($con, $query);
 
 if(!$result){
-	echo "Error Found!!!";
+	echo "Error";
 }
 ?>
 
@@ -16,6 +16,7 @@ if(!$result){
         $id = $property_result['propiedad_id'];
         $propiedad_titulo = $property_result['propiedad_titulo'];
         $tipo_anunciante = $property_result['tipo_anunciante'];
+        $nombre_anunciante = $property_result['nombre_anunciante'];
         $tipo_inmueble = $property_result['tipo_inmueble'];
         $operacion = $property_result['operacion'];
         $metros_cuadrados = $property_result['metros_cuadrados'];
