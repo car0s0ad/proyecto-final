@@ -18,7 +18,6 @@ SET time_zone = "+00:00";
 
 --
 -- Database: `inmobd`
-CREATE DATABASE `inmobd`;
 
 -- Table structure for table `propiedades`
 CREATE TABLE `propiedades` (
