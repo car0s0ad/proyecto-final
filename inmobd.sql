@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-03-2021 a las 19:53:33
+-- Tiempo de generación: 17-03-2021 a las 03:07:03
 -- Versión del servidor: 10.4.17-MariaDB
 -- Versión de PHP: 8.0.0
 
@@ -29,22 +29,22 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `propiedades` (
   `propiedad_id` int(10) NOT NULL,
-  `propiedad_titulo` varchar(150) DEFAULT NULL,
-  `tipo_anunciante` varchar(150) DEFAULT NULL,
+  `propiedad_titulo` varchar(150) NOT NULL,
+  `tipo_anunciante` varchar(150) NOT NULL,
   `nombre_anunciante` varchar(200) NOT NULL,
-  `tipo_inmueble` varchar(150) DEFAULT NULL,
-  `operacion` varchar(150) DEFAULT NULL,
-  `metros_cuadrados` int(5) DEFAULT NULL,
-  `ambientes` int(5) DEFAULT NULL,
-  `precio` float DEFAULT NULL,
-  `expensas` float DEFAULT NULL,
+  `tipo_inmueble` varchar(150) NOT NULL,
+  `operacion` varchar(150) NOT NULL,
+  `metros_cuadrados` int(5) NOT NULL,
+  `ambientes` int(5) NOT NULL,
+  `precio` float NOT NULL,
+  `expensas` float NOT NULL,
   `direccion` varchar(200) DEFAULT NULL,
-  `propiedad_img` varchar(200) DEFAULT NULL,
-  `cochera` tinyint(1) DEFAULT NULL,
-  `balcon` tinyint(1) DEFAULT NULL,
-  `mascotas` tinyint(1) DEFAULT NULL,
-  `niños` tinyint(1) DEFAULT NULL,
-  `otros_detalles` text DEFAULT NULL
+  `propiedad_img` varchar(200) NOT NULL,
+  `cochera` tinyint(1) NOT NULL,
+  `balcon` tinyint(1) NOT NULL,
+  `mascotas` tinyint(1) NOT NULL,
+  `niños` tinyint(1) NOT NULL,
+  `otros_detalles` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------

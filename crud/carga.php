@@ -1,13 +1,11 @@
 <?php include("conexion.php") ?> 
 <?php include("header.php") ?>
-<?php if (isset($_GET['error'])): ?>
-		<p><?php echo $_GET['error']; ?></p>
-<?php endif ?>
+
     <html class="h-100">
         <body class="h-100">
                <br>
                <section class= "recuadro col-5 mx-auto py-2">
-                    <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <form action="upload.php" method="POST" enctype="multipart/form-data">
                                 <div class="row">
                                     <div class="container-fluid col">
                                         <input type="text" name="propiedad_titulo" class="form-control" placeholder="Título" autofocus><br>
@@ -15,7 +13,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="container-fluid">
-                                        <select class="form-select col">
+                                        <select class="form-select col" name="tipo_anunciante">
                                             <option selected>Anunciante</option>
                                             <option value="1">Dueño directo</option>
                                             <option value="2">Inmobiliaria</option>
@@ -25,12 +23,12 @@
                                 <br>
                                 <div class="row">
                                     <div class="container-fluid">
-                                        <input type="text" name="Nombre anunciante" class="form-control" placeholder="Nombre Anunciante" autofocus><br>
+                                        <input type="text" name="nombre_anunciante" class="form-control" placeholder="Nombre Anunciante" autofocus><br>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="container-fluid">
-                                        <select class="form-select">
+                                        <select class="form-select" name="tipo_inmueble">
                                             <option selected>Tipo de Inmueble</option>
                                             <option value="1">Cualquier tipo de propiedad</option>
                                             <option value="2">Casa</option>
@@ -45,7 +43,7 @@
                                 <br>
                                 <div class="row">
                                     <div class="container-fluid">
-                                        <select class="form-select">
+                                        <select class="form-select" name="operacion">
                                             <option selected>Operación</option>
                                             <option value="1">Alquiler</option>
                                             <option value="2">Venta</option>
@@ -55,12 +53,12 @@
                                 <br>
                                 <div class="row">
                                     <div class="container-fluid">
-                                        <input type="text" name="m2" class="form-control" placeholder="M²" autofocus><br>
+                                        <input type="text" name="metros_cuadrados" class="form-control" placeholder="M²" autofocus><br>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="container-fluid">
-                                        <select class="form-select">
+                                        <select class="form-select" name="ambientes">
                                             <option selected>Ambientes</option>
                                             <option value="1">Monoambiente</option>
                                             <option value="2">2 ambientes</option>
@@ -88,40 +86,24 @@
                                 </div>
                                 <div class="row ml-2">
                                     <div class="container-fluid">
-                                        <input class="form-check-input" type="checkbox" value="1" name="cochera">
-                                                <label class="form-check-label" for="flexCheckDefault">
-                                                    ¿Tiene cochera?
-                                                </label>
-                                                <input class="form-check-input" type="hidden" value="0" name="cochera" disabled>
-                                                <label class="form-check-label" for="flexCheckDisabled">
-                                                </label>
+                                                <input type="hidden" name="cochera" value="0">
+                                                <input type="checkbox" name="cochera" value="1">
+                                                <a> ¿Tiene cochera? </a>
                                     </div>
                                     <div class="container-fluid">
-                                        <input class="form-check-input" type="checkbox" value="1" name="balcon">
-                                                <label class="form-check-label" for="flexCheckDefault">
-                                                    ¿Posee balcón?
-                                                </label>
-                                                <input class="form-check-input" type="hidden" value="0" name="balcon" disabled>
-                                                <label class="form-check-label" for="flexCheckDisabled">
-                                                </label>
+                                                <input type="hidden" name="balcon" value="0">
+                                                <input type="checkbox" name="balcon" value="1">
+                                                <a> ¿Tiene balcón? </a>
                                     </div>
                                     <div class="container-fluid">
-                                        <input class="form-check-input" type="checkbox" value="1" name="mascotas">
-                                                <label class="form-check-label" for="flexCheckDefault">
-                                                    ¿Se permiten mascotas?
-                                                </label>
-                                                <input class="form-check-input" type="hidden" value="0" name="mascotas" disabled>
-                                                <label class="form-check-label" for="flexCheckDisabled">
-                                                </label>
+                                                <input type="hidden" name="mascotas" value="0">
+                                                <input type="checkbox" name="mascotas" value="1">
+                                                <a> ¿Se permiten mascotas? </a>
                                     </div>
                                     <div class="container-fluid">
-                                        <input class="form-check-input" type="checkbox" value="1" name="niños">
-                                                <label class="form-check-label" for="flexCheckDefault">
-                                                    ¿Se permiten niños?
-                                                </label>
-                                                <input class="form-check-input" type="hidden" value="0" name="niños" disabled>
-                                                <label class="form-check-label" for="flexCheckDisabled">
-                                                </label>
+                                                <input type="hidden" name="niños" value="0">
+                                                <input type="checkbox" name="niños" value="1">
+                                                <a> ¿Se permiten niños? </a>
                                     </div>
                                 </div>
                                 <br>
@@ -133,7 +115,7 @@
                                 <br>
                                 <div class="row">
                                     <div class="container-fluid justify-content-center">
-                                    <input type="file" name="my_image"> 
+                                    <input type="file" name="fotos"> 
                                     </div>
                                 <br>
                                 <br>
@@ -141,7 +123,7 @@
                                 <div class="row justify-content-center">
                                     <div class="container-fluid">
                                         <div class="col">
-                                            <input type="submit" value="Guardar"></a>
+                                            <input type="submit" name="guardar" value="Guardar"></a>
                                         </div>
                                     </div>
                                 </div>
