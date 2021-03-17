@@ -20,14 +20,15 @@ if (isset($_POST['guardar'])){
 	$img_size = $_FILES['my_image']['size'];
 	$tmp_name = $_FILES['my_image']['tmp_name'];
 	$error = $_FILES['my_image']['error'];
+ }
 
-    $insertprop = "INSERT INTO propiedades(propiedad_titulo, tipo_anunciante, nombre_anunciante, tipo_inmueble, operacion, metros_cuadrados, ambientes, precio, expensas, direccion, cochera, balcon, mascotas, niños, otros detalles) VALUES ('$propiedad_titulo', '$tipo_anunciante', '$nombre_anunciante', '$tipo_inmueble', '$operacion', '$metros_cuadrados', '$ambientes', '$precio', '$expensas', '$direccion', '$cochera', '$balcon', '$mascotas', '$niños', '$otros_detalles')";
+    $insertprop = "INSERT INTO propiedades (propiedad_titulo, tipo_anunciante, nombre_anunciante, tipo_inmueble, operacion, metros_cuadrados, ambientes, precio, expensas, direccion, cochera, balcon, mascotas, niños, otros detalles) VALUES ('$propiedad_titulo', '$tipo_anunciante', '$nombre_anunciante', '$tipo_inmueble', '$operacion', '$metros_cuadrados', '$ambientes', '$precio', '$expensas', '$direccion', '$cochera', '$balcon', '$mascotas', '$niños', '$otros_detalles')";
     $result = mysqli_query($conn, $insertprop);
 	if (!$result) {
 		die("Error en la consulta");
 	 }
 
-	$insertimg = "INSERT INTO propiedades_imagen(image_url) VALUES('$new_img_name')";
+	$insertimg = "INSERT INTO propiedades_imagen (image_url) VALUES('$new_img_name')";
     $result = mysqli_query($conn, $insertprop);
 	if (!$result) {
 		die("Error en la consulta");

@@ -3,7 +3,7 @@
 <?php 
 include_once "conexion.php";
 
-$query = "select * from propiedades";
+$query = "SELECT * FROM `propiedades`";
 $result = mysqli_query($con, $query);
 
 if(!$result){
