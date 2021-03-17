@@ -35,33 +35,33 @@ if(!$result){
 
       <html class="h-100">
       <body class="d-flex flex-column h-100">
-        <main role="main"></main>        
-         
-         <section>
-            <div class="container-fluid container-md py-5">  
-               <div class="row align-items-center col-12">
-                  <h1>Propiedades</h1>
-               </div>
-            </div>
-               <div class="row align-items-center mx-5">
-                  <div class="col-sm-6 col-md-3 pb-4">
-                      <div class="shadow">
-                          <div class="box-image d-flex align-items-center justify-content-center py-5">
-                              <img src="<?php echo $propiedad_img; ?>" class="img-fluid" alt="propiedad">
-                          </div>
-                          <div class="box-content text-center py-4">
-                              <h4><a href="detallepropiedad.php?id=<?php echo $id; ?>"><?php echo $propiedad_titulo;  ?></a></h4>
-                              <h4 class="price">Precio: $<?php echo $precio; ?></h4>
-                              <h4 class="direccion">Dirección: <?php echo $direccion; ?></h4>
-                              <h4 class="ambientes">Ambientes: <?php echo $ambientes; ?></h4>
-                              <a class="btn btn-primary" href="detallepropiedad.php?id=<?php echo $id; ?>">Ver Detalle</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-         </section>
-    
-    
-    </body>
+          <main role="main"></main>        
+                <section class= "col- mx-auto pt-5">
+                   <div clas="row">
+                       <div class="col-">
+                         <h1 class="titulo_detalle"><?php echo $propiedad_titulo;  ?></h1>
+                       </div>
+                   </div>
+                </section>
+                <section class= "col-md-8 mx-auto">
+                    <div class="row align-items-center mx-5">
+                        <div class="col- py-5">
+                            <div class="shadow">
+                                <div class="box-image d-flex align-items-center justify-content-center py-5">
+                                    <img src="<?php echo $propiedad_img; ?>" class="img-fluid" alt="propiedad">
+                                </div>
+                                <div class="box-content text-center py-4">
+                                    <h4 class="precio">Precio: $<?php echo $precio; ?></h4>
+                                    <h4 class="direccion">Dirección: <?php echo $direccion; ?></h4>
+                                    <h4 class="ambientes">Ambientes: <?php echo $ambientes; ?></h4>
+                                    <h4 class="expensas">Expensas/gastos: $<?php echo $expensas; ?></h4>
+                                    <h4 class="otros_detalles">Otros Detalles: <?php echo $otros_detalles; ?></h4>                          
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+          </main>  
+      </body>
     <?php include("includes/footer.php") ?>
     </html>
