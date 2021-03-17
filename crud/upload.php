@@ -33,6 +33,5 @@ if (isset($_POST['guardar'])){
 	if (!$result) {
 		die("Error en la consulta");
 	 }
-
-
+     
 ?>

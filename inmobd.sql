@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
+<<<<<<< HEAD
 -- Tiempo de generación: 16-03-2021 a las 02:57:12
+=======
+-- Tiempo de generación: 17-03-2021 a las 03:31:38
+>>>>>>> 3277676ffde78ef231dad227960450d6a7e7c7b6
 -- Versión del servidor: 10.4.17-MariaDB
 -- Versión de PHP: 8.0.0
 
@@ -40,10 +44,10 @@ CREATE TABLE `propiedades` (
   `expensas` float DEFAULT NULL,
   `direccion` varchar(200) DEFAULT NULL,
   `propiedad_img` varchar(200) DEFAULT NULL,
-  `cochera` varchar(20) DEFAULT NULL,
-  `balcon` varchar(20) DEFAULT NULL,
-  `mascotas` varchar(20) DEFAULT NULL,
-  `niños` varchar(20) DEFAULT NULL,
+  `cochera` tinyint(1) NOT NULL,
+  `balcon` tinyint(1) NOT NULL,
+  `mascotas` tinyint(1) NOT NULL,
+  `niños` tinyint(1) NOT NULL,
   `otros_detalles` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -88,7 +92,7 @@ ALTER TABLE `propiedades`
 -- AUTO_INCREMENT de la tabla `propiedades_imagen`
 --
 ALTER TABLE `propiedades_imagen`
-  MODIFY `propiedad_id` int(10) NOT NULL AUTO_INCREMENT;
+  MODIFY `propiedad_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -7,7 +7,7 @@
 
 <br>
 <br>
-<a href="carga.php"type=button class="btn btn-success btn-lg">Agregar otro inmueble</a><br>
+<a href="carga.php" type=button class="btn btn-success btn-lg">Agregar otro inmueble</a><br>
 <br>
 <br>
 <?php 
