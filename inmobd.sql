@@ -1,15 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
-<<<<<<< HEAD
--- Tiempo de generación: 16-03-2021 a las 02:57:12
-=======
--- Tiempo de generación: 17-03-2021 a las 03:31:38
->>>>>>> 3277676ffde78ef231dad227960450d6a7e7c7b6
--- Versión del servidor: 10.4.17-MariaDB
--- Versión de PHP: 8.0.0
+-- Tiempo de generación: 18-03-2021 a las 00:00:05
+-- Versión del servidor: 10.4.18-MariaDB
+-- Versión de PHP: 8.0.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -44,23 +40,16 @@ CREATE TABLE `propiedades` (
   `expensas` float DEFAULT NULL,
   `direccion` varchar(200) DEFAULT NULL,
   `propiedad_img` varchar(200) DEFAULT NULL,
-  `cochera` tinyint(1) NOT NULL,
-  `balcon` tinyint(1) NOT NULL,
-  `mascotas` tinyint(1) NOT NULL,
-  `niños` tinyint(1) NOT NULL,
-  `otros_detalles` text DEFAULT NULL
+  `otros_detalles` text DEFAULT NULL,
+  `atributos` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
-
 --
--- Estructura de tabla para la tabla `propiedades_imagen`
+-- Volcado de datos para la tabla `propiedades`
 --
 
-CREATE TABLE `propiedades_imagen` (
-  `propiedades_imagenes` varchar(200) DEFAULT NULL,
-  `propiedad_id` int(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+INSERT INTO `propiedades` (`propiedad_id`, `propiedad_titulo`, `tipo_anunciante`, `nombre_anunciante`, `tipo_inmueble`, `operacion`, `metros_cuadrados`, `ambientes`, `precio`, `expensas`, `direccion`, `propiedad_img`, `otros_detalles`, `atributos`) VALUES
+(1, 'Casa grande', 'Dueño directo', 'Caro', 'Casa', 'Venta', 12, 2, 10, 2, 'Cordoba', '0', 'Grande', 'Niños');
 
 --
 -- Índices para tablas volcadas
@@ -73,12 +62,6 @@ ALTER TABLE `propiedades`
   ADD PRIMARY KEY (`propiedad_id`);
 
 --
--- Indices de la tabla `propiedades_imagen`
---
-ALTER TABLE `propiedades_imagen`
-  ADD PRIMARY KEY (`propiedad_id`);
-
---
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -86,13 +69,7 @@ ALTER TABLE `propiedades_imagen`
 -- AUTO_INCREMENT de la tabla `propiedades`
 --
 ALTER TABLE `propiedades`
-  MODIFY `propiedad_id` int(10) NOT NULL AUTO_INCREMENT;
-
---
--- AUTO_INCREMENT de la tabla `propiedades_imagen`
---
-ALTER TABLE `propiedades_imagen`
-  MODIFY `propiedad_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `propiedad_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

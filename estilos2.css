@@ -141,3 +141,26 @@ p{
 .sobrenosotros{
   background-color:rgba(249, 220, 144, 0.5);
 }
+
+.publicar {
+  background:rgba(249, 220, 144, 0.5);
+  font-family: Mukta;
+  font-size: 30px;
+  color: white;
+
+}
+.contactar {
+  background:rgba(249, 220, 144, 0.5);
+  font-family: Mukta;
+  font-size: 30px;
+  color: white;
+}
+.box-image {
+  background-color: lightgrey;
+}
+.box-content {
+  background-color: white;
+}
+.recuadro {
+  background:rgba(249, 220, 144, 0.5);
+  

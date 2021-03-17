@@ -86,23 +86,19 @@
                                 </div>
                                 <div class="row ml-2">
                                     <div class="container-fluid">
-                                                <input type="hidden" name="cochera" value="0">
-                                                <input type="checkbox" name="cochera" value="1">
+                                                <input type="checkbox" name="atributos" value="cochera">
                                                 <a> ¿Tiene cochera? </a>
                                     </div>
                                     <div class="container-fluid">
-                                                <input type="hidden" name="balcon" value="0">
-                                                <input type="checkbox" name="balcon" value="1">
+                                                <input type="checkbox" name="atributos" value="balcón">
                                                 <a> ¿Tiene balcón? </a>
                                     </div>
                                     <div class="container-fluid">
-                                                <input type="hidden" name="mascotas" value="0">
-                                                <input type="checkbox" name="mascotas" value="1">
+                                                <input type="checkbox" name="atributos" value="mascotas">
                                                 <a> ¿Se permiten mascotas? </a>
                                     </div>
                                     <div class="container-fluid">
-                                                <input type="hidden" name="niños" value="0">
-                                                <input type="checkbox" name="niños" value="1">
+                                                <input type="checkbox" name="atributos" value="niños">
                                                 <a> ¿Se permiten niños? </a>
                                     </div>
                                 </div>
