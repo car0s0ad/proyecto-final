@@ -12,11 +12,9 @@ include ("conexion.php");
 		$precio = $_POST['precio'];
 		$expensas = $_POST['expensas'];
 		$direccion = $_POST['direccion'];
-		$cochera = $_POST['cochera'];
-		$balcon = $_POST['balcon'];
-		$mascotas = $_POST['mascotas'];
-		$niños = $_POST['niños'];
 		$otros_detalles = $_POST['otros_detalles'];
+
+	$checkbox=$_POST
 
 
     $query = "INSERT INTO propiedades(propiedad_titulo, tipo_anunciante, nombre_anunciante, tipo_inmueble, operacion, metros_cuadrados, ambientes, precio, expensas, direccion, cochera, balcon, mascotas, niños, otros detalles) VALUES ('$propiedad_titulo', '$tipo_anunciante', '$nombre_anunciante', '$tipo_inmueble', '$operacion', '$metros_cuadrados', '$ambientes', '$precio', '$expensas', '$direccion', '$cochera', '$balcon', '$mascotas', '$niños', '$otros_detalles')";

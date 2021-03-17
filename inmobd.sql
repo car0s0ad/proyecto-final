@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-03-2021 a las 03:07:03
+-- Tiempo de generación: 17-03-2021 a las 03:31:38
 -- Versión del servidor: 10.4.17-MariaDB
 -- Versión de PHP: 8.0.0
 
@@ -57,19 +57,6 @@ CREATE TABLE `propiedades_imagen` (
   `image_url` text DEFAULT NULL,
   `propiedad_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `propiedades_imagen`
---
-
-INSERT INTO `propiedades_imagen` (`image_url`, `propiedad_id`) VALUES
-('IMG-60504773c17d43.44342082.png', 1),
-('IMG-605048d1759fb3.32242225.png', 2),
-('IMG-6050491243ae51.59776758.png', 3);
-
---
--- Índices para tablas volcadas
---
 
 --
 -- Indices de la tabla `propiedades`
