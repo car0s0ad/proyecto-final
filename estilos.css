@@ -168,3 +168,85 @@ a[class=".btn-primary"] {
 a[class=".btn-primary"]:hover {
   background: #805690;
 }
+
+
+
+.table td {
+  transition: all .5s;
+  font-family: Mukta;
+  text-align: center;
+}
+
+/* Table */
+.tabla_datos {
+  border-collapse: collapse;
+  font-size: 14px;
+  min-width: 537px;
+  font-family: Mukta;
+  text-align: center;
+}
+
+.tabla_datos th, 
+.tabla_datos td {
+  border: 1px solid #e1edff;
+  padding: 7px 17px;
+  font-family: Mukta;
+  text-align: center;
+}
+.tabla_datos caption {
+  margin: 7px;
+  font-family: Mukta;
+  text-align: center;
+}
+
+/* Table Header */
+#titulo {
+  background-color: #606264;
+  color: #FFFFFF;
+  border-color: #3f4041 !important;
+  font-family: Mukta;
+  text-align: center;
+}
+
+/* Table Body */
+.tabla_datos tbody td {
+  color: #353535;
+  font-family: Mukta;
+  text-align: center;
+}
+.tabla_datos tbody td:first-child,
+.tabla_datos tbody td:nth-child(4),
+.tabla_datos tbody td:last-child {
+  text-align: right;
+  font-family: Mukta;
+  text-align: center;
+}
+
+.tabla_datos tbody tr:nth-child(odd) td {
+  background-color: #f4fbff;
+  font-family: Mukta;
+  text-align: center;
+}
+.tabla_datos tbody tr:hover td {
+  background-color: #ffffa2;
+  border-color: #ffff0f;
+  font-family: Mukta;
+  text-align: center;
+}
+
+/* Table Footer */
+.tabla_datos tfoot th {
+  background-color: #e5f5ff;
+  font-family: Mukta;
+  text-align: center;
+}
+.tabla_datos tfoot th:first-child {
+  font-family: Mukta;
+  text-align: center;
+  
+.tabla_datos tbody td:empty
+{
+  background-color: #ffcccc;
+  font-family: Mukta;
+  text-align: center;
+}

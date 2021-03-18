@@ -4,6 +4,9 @@
     <html class="h-100">
         <body class="h-100">
                <br>
+               <br>
+               <br>
+               <br>
                <section class= "recuadro col-5 mx-auto py-2">
                     <form action="upload.php" method="POST" enctype="multipart/form-data">
                                 <div class="row">
@@ -142,4 +145,14 @@
                      </form>
                 </section>
         </body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <?php include("footer.php") ?>
     </html>
+
+    
