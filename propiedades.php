@@ -54,6 +54,7 @@ if(!$result){
                               <h4 class="price">Precio: $<?php echo $precio; ?></h4>
                               <h4 class="direccion">Dirección: <?php echo $direccion; ?></h4>
                               <h4 class="ambientes">Ambientes: <?php echo $ambientes; ?></h4>
+                              <br>
                               <a class="btn btn-primary" href="detallepropiedad.php?id=<?php echo $id; ?>">Ver Detalle</a>
                           </div>
                       </div>
