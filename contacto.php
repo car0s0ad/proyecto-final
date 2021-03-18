@@ -18,7 +18,8 @@
                           <h5 class="align-self-center">Antonella Pereira</h5>
                       </div>
                       <div class="col-auto d-flex">
-                          <a href="mailto:grupo7@gmail.com"> <img class="logo mr-4"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=+543743499099&text=Hola!"> <img class="logo mr-3"  src="./recursos/ICONOS/wat1.png" href="#" width=27 height=27 alt="logo"> </a>
+                          <a href="mailto:grupo7@gmail.com"> <img class="logo mr-3"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
                           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/carolina-dehle-03b050200/"> <img class="logo mr-5" src="./recursos/ICONOS/in2.png" href="#" width=30 height=30 alt="logo"> </a>
                       </div>
                  </div>                   
@@ -28,7 +29,8 @@
                           <h5 class="align-self-center">Carolina Dehle</h5>
                       </div>
                       <div class="col-auto d-flex">
-                          <a href="mailto:carodehle@gmail.com"> <img class="logo mr-4"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=+543743499099&text=Hola!"> <img class="logo mr-3"  src="./recursos/ICONOS/wat1.png" href="#" width=27 height=27 alt="logo"> </a>
+                          <a href="mailto:carodehle@gmail.com"> <img class="logo mr-3"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
                           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/carolina-dehle-03b050200/"> <img class="logo mr-5" src="./recursos/ICONOS/in2.png" href="#" width=30 height=30 alt="logo"> </a>
                       </div>
                  </div>
@@ -38,7 +40,8 @@
                           <h5 class="align-self-center">Ileana Marinoni</h5>
                       </div>
                       <div class="col-auto d-flex">
-                          <a href="mailto:ileanagmarinoni@gmail.com"> <img class="logo mr-4"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=+543743499099&text=Hola!"> <img class="logo mr-3"  src="./recursos/ICONOS/wat1.png" href="#" width=27 height=27 alt="logo"> </a>
+                          <a href="mailto:ileanagmarinoni@gmail.com"> <img class="logo mr-3"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
                           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ileana-marinoni-18458b1a4/"> <img class="logo mr-5" src="./recursos/ICONOS/in2.png" href="#" width=30 height=30 alt="logo"> </a>
                       </div>
                 </div>
@@ -48,7 +51,8 @@
                           <h5 class="align-self-center">Leandro Portillo</h5>
                       </div>
                       <div class="col-auto d-flex">
-                          <a href="mailto:lean.jpg@gmail.com"> <img class="logo mr-4"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=+543743499099&text=Hola!"> <img class="logo mr-3"  src="./recursos/ICONOS/wat1.png" href="#" width=27 height=27 alt="logo"> </a>
+                          <a href="mailto:lean.jpg@gmail.com"> <img class="logo mr-3"  src="./recursos/ICONOS/mail1.png" href="#" width=32 height=22 alt="logo"> </a>
                           <a target="_blank" rel="noopener noreferrer" href="www.linkedin.com/in/leandro-esteban-portillo-b43305202"> <img class="logo mr-5" src="./recursos/ICONOS/in2.png" href="#" width=30 height=30 alt="logo"> </a>
                       </div>
                  </div>
