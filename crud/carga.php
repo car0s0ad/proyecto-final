@@ -15,8 +15,8 @@
                                     <div class="container-fluid">
                                         <select class="form-select col" name="tipo_anunciante">
                                             <option selected>Anunciante</option>
-                                            <option value="1">Dueño directo</option>
-                                            <option value="2">Inmobiliaria</option>
+                                            <option value="Dueño directo">Dueño directo</option>
+                                            <option value="Inmobiliaria">Inmobiliaria</option>
                                         </select>
                                     </div>
                                 </div>
@@ -30,13 +30,9 @@
                                     <div class="container-fluid">
                                         <select class="form-select" name="tipo_inmueble">
                                             <option selected>Tipo de Inmueble</option>
-                                            <option value="1">Cualquier tipo de propiedad</option>
-                                            <option value="2">Casa</option>
-                                            <option value="3">Departamento</option>
-                                            <option value="4">Local comercial</option>
-                                            <option value="5">Terreno</option>
-                                            <option value="6">Oficina/Consultorio</option>
-                                            <option value="7">Depósito</option>
+                                            <option value="Casa">Casa</option>
+                                            <option value="Departamento">Departamento</option>
+                                            <option value="Local comercial">Local comercial</option>
                                         </select>
                                     </div>
                                 </div>
@@ -45,8 +41,8 @@
                                     <div class="container-fluid">
                                         <select class="form-select" name="operacion">
                                             <option selected>Operación</option>
-                                            <option value="1">Alquiler</option>
-                                            <option value="2">Venta</option>
+                                            <option value="Alquiler">Alquiler</option>
+                                            <option value="Venta">Venta</option>
                                         </select>
                                     </div>
                                 </div>
@@ -60,11 +56,10 @@
                                     <div class="container-fluid">
                                         <select class="form-select" name="ambientes">
                                             <option selected>Ambientes</option>
-                                            <option value="1">Monoambiente</option>
-                                            <option value="2">2 ambientes</option>
-                                            <option value="3">3 ambientes</option>
-                                            <option value="4">4 ambientes</option>
-                                            <option value="5">5 ambientes</option>
+                                            <option value="Monoambiente">Monoambiente</option>
+                                            <option value="2 ambientes">2 ambientes</option>
+                                            <option value="3 ambientes">3 ambientes</option>
+                                            <option value="4 ambientes">4 ambientes</option>
                                         </select>
                                     </div>
                                 </div>
@@ -84,22 +79,43 @@
                                         <input type="text" name="direccion" class="form-control" placeholder="Dirección" autofocus><br>
                                     </div>
                                 </div>
-                                <div class="row ml-2">
+                                <div class="row">
                                     <div class="container-fluid">
-                                                <input type="checkbox" name="atributos" value="cochera">
-                                                <a> ¿Tiene cochera? </a>
+                                        <select class="form-select" name="cochera">
+                                            <option selected>¿Tiene cochera?</option>
+                                            <option value="No tiene cochera">Si</option>
+                                            <option value="Tiene cochera">No</option>
+                                        </select>
                                     </div>
+                                </div>
+                                <br>
+                                <div class="row">
                                     <div class="container-fluid">
-                                                <input type="checkbox" name="atributos" value="balcón">
-                                                <a> ¿Tiene balcón? </a>
+                                        <select class="form-select" name="balcon">
+                                            <option selected>¿Tiene balcón?</option>
+                                            <option value="No tiene balcón">Si</option>
+                                            <option value="Tiene balcón">No</option>
+                                        </select>
                                     </div>
+                                </div>
+                                <br>
+                                <div class="row">
                                     <div class="container-fluid">
-                                                <input type="checkbox" name="atributos" value="mascotas">
-                                                <a> ¿Se permiten mascotas? </a>
+                                        <select class="form-select" name="mascotas">
+                                            <option selected>¿Se permiten mascotas?</option>
+                                            <option value="No se permiten mascotas">Si</option>
+                                            <option value="Se permiten mascotas">No</option>
+                                        </select>
                                     </div>
+                                </div>
+                                <br>
+                                <div class="row">
                                     <div class="container-fluid">
-                                                <input type="checkbox" name="atributos" value="niños">
-                                                <a> ¿Se permiten niños? </a>
+                                        <select class="form-select" name="ninos">
+                                            <option selected>¿Se permiten niños?</option>
+                                            <option value="No se permiten niños">Si</option>
+                                            <option value="Se permiten niños">No</option>
+                                        </select>
                                     </div>
                                 </div>
                                 <br>
@@ -111,7 +127,7 @@
                                 <br>
                                 <div class="row">
                                     <div class="container-fluid justify-content-center">
-                                    <input type="file" name="fotos"> 
+                                    <input type="file" name="Fotos"> 
                                     </div>
                                 <br>
                                 <br>

@@ -13,11 +13,15 @@ $success  = "";
 		$expensas = $_POST['expensas'];
 		$direccion = $_POST['direccion'];
 		$otros_detalles = $_POST['otros_detalles'];
-		$atributos = $_POST['atributos'];
+		$cochera = $_POST['cochera'];
+		$balcon = $_POST['balcon'];
+		$mascotas = $_POST['mascotas'];
+		$ninos = $_POST['ninos'];
+		
+		
+		
 
-		$checkBox = implode(',', $_POST['atributos']);
-
-		$query = "INSERT INTO propiedades (propiedad_titulo, tipo_anunciante, nombre_anunciante, tipo_inmueble, operacion, metros_cuadrados, ambientes, precio, expensas, direccion, otros_detalles, atributos) VALUES ('$propiedad_titulo', '$tipo_anunciante', '$nombre_anunciante', '$tipo_inmueble', '$operacion', '$metros_cuadrados', '$ambientes', '$precio', '$expensas', '$direccion', '" . $checkBox . "', '$otros_detalles')";
+		$query = "INSERT INTO propiedades (propiedad_titulo, tipo_anunciante, nombre_anunciante, tipo_inmueble, operacion, metros_cuadrados, ambientes, precio, expensas, direccion, otros_detalles, cochera, balcon, mascotas, ninos) VALUES ('$propiedad_titulo', '$tipo_anunciante', '$nombre_anunciante', '$tipo_inmueble', '$operacion', '$metros_cuadrados', '$ambientes', '$precio', '$expensas', '$direccion', '$otros_detalles', '$cochera','$balcon', '$mascotas', '$ninos')";
 		
 	 
 		if (mysqli_query($conn, $query))
