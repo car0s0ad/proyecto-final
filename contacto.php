@@ -7,7 +7,7 @@
         <section class="col- ml-5 pt-5">
             <div class="container-fluid container-md">  
                <div class="row align-items-center col-5">
-                <h1 class="neon">Escribinos</h1>
+                <h1 class="neon">Contactanos</h1>
             </div>
         </section>
          

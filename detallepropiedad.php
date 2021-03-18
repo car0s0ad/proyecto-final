@@ -52,9 +52,14 @@ if(!$result){
                                 </div>
                                 <div class="box-content text-center py-4">
                                     <h4 class="precio">Precio: $<?php echo $precio; ?></h4>
-                                    <h4 class="direccion">Dirección: <?php echo $direccion; ?></h4>
-                                    <h4 class="ambientes">Ambientes: <?php echo $ambientes; ?></h4>
                                     <h4 class="expensas">Expensas/gastos: $<?php echo $expensas; ?></h4>
+                                    <h4 class="direccion">Dirección: <?php echo $direccion; ?></h4>
+                                    <h4 class="ambientes">Ambientes: <?php echo $ambientes; ?></h4>                        
+                                    <h4 class="metros_cuadrados">Metros cuadrados: <?php echo $metros_cuadrados; ?></h4>
+                                    <h4 class="cochera">Cochera: <?php echo $cochera; ?></h4>
+                                    <h4 class="balcon">Balcón: <?php echo $balcon; ?></h4>
+                                    <h4 class="mascotas">Pet-friendly <i class="las la-dog"></i> : <?php echo $mascotas; ?></h4>
+                                    <h4 class="niños">Family-friendly <i class="las la-baby-carriage"></i> : <?php echo $niños; ?></h4>
                                     <h4 class="otros_detalles">Otros Detalles: <?php echo $otros_detalles; ?></h4>                          
                                 </div>
                             </div>

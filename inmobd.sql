@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 18-03-2021 a las 00:00:05
+-- Tiempo de generación: 18-03-2021 a las 00:54:59
 -- Versión del servidor: 10.4.18-MariaDB
 -- Versión de PHP: 8.0.3
 
@@ -49,7 +49,7 @@ CREATE TABLE `propiedades` (
 --
 
 INSERT INTO `propiedades` (`propiedad_id`, `propiedad_titulo`, `tipo_anunciante`, `nombre_anunciante`, `tipo_inmueble`, `operacion`, `metros_cuadrados`, `ambientes`, `precio`, `expensas`, `direccion`, `propiedad_img`, `otros_detalles`, `atributos`) VALUES
-(1, 'Casa grande', 'Dueño directo', 'Caro', 'Casa', 'Venta', 12, 2, 10, 2, 'Cordoba', '0', 'Grande', 'Niños');
+(2, '', 'Anunciante', '', 'Tipo de Inmueble', 'Operación', 0, 0, 0, 0, '', NULL, 'cochera,mascotas', 'Escribe aquí otros detalles');
 
 --
 -- Índices para tablas volcadas
@@ -69,7 +69,7 @@ ALTER TABLE `propiedades`
 -- AUTO_INCREMENT de la tabla `propiedades`
 --
 ALTER TABLE `propiedades`
-  MODIFY `propiedad_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `propiedad_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
