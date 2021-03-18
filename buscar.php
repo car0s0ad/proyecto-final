@@ -11,11 +11,11 @@
 
     $salida = "";
 
-    $query = "SELECT * FROM inmueble ORDER By inmueble_id LIMIT 25";
+    $query = "SELECT * FROM propiedades ORDER By propiedad_id LIMIT 25";
 
     if (isset($_POST['consulta'])) {
     	$q = $conn->real_escape_string($_POST['consulta']);
-    	$query = "SELECT * FROM inmueble WHERE inmueble_id LIKE '%$q%' LIKE '%$q%' OR propiedad_titulo LIKE '%$q%' OR tipo_anunciante LIKE '%$q%' OR tipo_inmueble LIKE '$q' ";
+    	$query = "SELECT * FROM propiedades WHERE propiedad_id LIKE '%$q%' LIKE '%$q%' OR propiedad_titulo LIKE '%$q%' OR tipo_anunciante LIKE '%$q%' OR tipo_inmueble LIKE '$q' ";
     }
 
     $resultado = $conn->query($query);
@@ -38,9 +38,10 @@
 
     	<tbody>";
 
+
     	while ($fila = $resultado->fetch_assoc()) {
     		$salida.="<tr>
-    					<td>".$fila['inmueble_id']."</td>
+    					<td>".$fila['propiedad_id']."</td>
     					<td>".$fila['propiedad_titulo']."</td>
     					<td>".$fila['tipo_anunciante']."</td>
     					<td>".$fila['tipo_inmueble']."</td>
@@ -57,7 +58,3 @@
     echo $salida;
 
     $conn->close();
-
-
-
-?>

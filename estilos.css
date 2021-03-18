@@ -86,7 +86,6 @@ p{
     
 }
 
-
   input[type="submit"] {
     margin: 10px 0 10px 3px;
     width: 100px;
@@ -155,7 +154,8 @@ p{
   background:rgba(249, 220, 144, 0.5);
   
 }
-.btn-primary {
+
+a[class=".btn-primary"] {
   cursor: pointer;
   border: 1px solid #805690;
   background: #ffffff;
@@ -163,4 +163,8 @@ p{
   box-shadow: 2px 2px 15px #ccc;
   transition: 150ms linear all;
   font-family: Mukta;
+}
+
+a[class=".btn-primary"]:hover {
+  background: #805690;
 }
