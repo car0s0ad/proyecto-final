@@ -28,7 +28,7 @@ if(!$result){
         $cochera = $property_result['cochera'];
         $balcon = $property_result['balcon'];
         $mascotas = $property_result['mascotas'];
-        $niños = $property_result['niños'];
+        $ninos = $property_result['ninos'];
         $otros_detalles = $property_result['otros_detalles'];
     }
     ?>

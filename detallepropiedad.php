@@ -28,7 +28,7 @@ if(!$result){
         $cochera = $property_result['cochera'];
         $balcon = $property_result['balcon'];
         $mascotas = $property_result['mascotas'];
-        $niños = $property_result['niños'];
+        $ninos = $property_result['ninos'];
         $otros_detalles = $property_result['otros_detalles'];
     }
     ?>
@@ -59,7 +59,7 @@ if(!$result){
                                     <h4 class="cochera">Cochera: <?php echo $cochera; ?></h4>
                                     <h4 class="balcon">Balcón: <?php echo $balcon; ?></h4>
                                     <h4 class="mascotas">Pet-friendly <i class="las la-dog"></i> : <?php echo $mascotas; ?></h4>
-                                    <h4 class="niños">Family-friendly <i class="las la-baby-carriage"></i> : <?php echo $niños; ?></h4>
+                                    <h4 class="niños">Family-friendly <i class="las la-baby-carriage"></i> : <?php echo $ninos; ?></h4>
                                     <h4 class="otros_detalles">Otros Detalles: <?php echo $otros_detalles; ?></h4>                          
                                 </div>
                             </div>
