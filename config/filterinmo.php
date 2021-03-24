@@ -38,25 +38,32 @@ if ($_POST) {
  				$filteredinmueble = $inmo['inmueble'];
  				$filteredambientes = $inmo['ambientes'];
              ?>
-				        <div class="col s12 m3">
-				          <div class="card">
-				            <div class="card-image">
-				              <img src="" height="200">
-				              <span class="card-title">Food Category</span>
-				            </div>
-				            <div class="card-content">
-				              <p>
-				              	 <li><?php echo $filteredanunciante; ?></li>
-				              	 <li><?php echo $filteredinmueble; ?></li>
-				              	 <li><?php echo $filteredambientes; ?></li>
-				              </p>
-				            </div>
-				            <div class="card-action">
-				              <a href="#">Click Here to Buy</a>
-				            </div>
-				          </div>
-				        </div>
-
+				<html class="h-100">
+				<body class="d-flex flex-column h-100">
+					<main role="main"></main>    
+					<section>
+						<div class="container-fluid">
+								<div class="row align-items-center mx-5">
+									<div class="col-sm-6 col-md-3 pb-4">
+										<div class="shadow">
+											<div class="box-image d-flex align-items-center justify-content-center py-5">
+												<img src="<?php echo $propiedad_img; ?>" class="img-fluid" alt="propiedad">
+											</div>
+											<div class="box-content text-center py-4">
+												<h4><a href="detallepropiedad.php?id=<?php echo $id; ?>"><?PHP echo $inmo['propiedad_titulo'] ?></a></h4>
+												<h4 class="price">Precio: $<?PHP echo $inmo['precio'] ?> </h4>
+												<h4 class="direccion">Dirección: <?PHP echo $inmo['direccion'] ?></h4>
+												<h4 class="ambientes">Ambientes: <?PHP echo $inmo['ambientes'] ?></h4>
+												<br>
+												<a class="btn btn-primary" href="detallepropiedad.php?id=<?php echo $id; ?>">Ver Detalle</a>
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+					</section>
+				</body>
+				</html>
              <?php
  			}
  		}	
