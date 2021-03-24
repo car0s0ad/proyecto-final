@@ -1,6 +1,16 @@
 <?php include("includes/header.php") ?>
 <?php include("includes/bootstrap.html") ?>
+<?php include('config/connect.php'); ?>
     <html class="h-100">
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
     <body>
         <main role="main"></main>        
   
@@ -11,46 +21,42 @@
                 <h1>tu nuevo hogar</h1>
             </div>
         </section>
-
-  <form action="resultados.php" method="get">
+    <br>
+    <br>
     <section class= "offset-md-1 col-md-5 mr-md-6">
     <div class="recuadrito">
       <div class="row">
         <div class="container-fluid">
-          <select class="form-select col-9">
-            <option selected>Anunciante</option>
-            <option value="1">Dueño directo</option>
-            <option value="2">Inmobiliaria</option>
+          <select class="form-select col-9" id="anunciante" onchange="filterinmob()">
+            <option value="">Tipo anunciante</option>
+            <option value="Dueño directo">Dueño directo</option>
+            <option value="Inmobiliaria">Inmobiliaria</option>
           </select>
         </div>
       </div>
     <br>
       <div class="row">
         <div class="container-fluid">
-          <select class="form-select col-9">
-            <option selected>Tipo de Inmueble</option>
-            <option value="1">Cualquier tipo de propiedad</option>
-            <option value="2">Casa</option>
-            <option value="3">Departamento</option>
-            <option value="4">Local comercial</option>
-            <option value="5">Terreno</option>
-            <option value="6">Oficina/Consultorio</option>
-            <option value="7">Depósito</option>
+          <select class="form-select col-9" id="inmueble" onchange="filterinmob()">
+            <option value="">Tipo de Inmueble</option>
+            <option value="Casa">Casa</option>
+            <option value="Departamento">Departamento</option>
+            <option value="Local comercial">Local comercial</option>
           </select>
         </div>
       </div>
       <br>
       <div class="row">
         <div class="container-fluid">
-          <select class="form-select col-9">
-            <option selected>Ambientes</option>
-            <option value="1">Monoambiente</option>
-            <option value="2">2 ambientes</option>
-            <option value="3">3 ambientes</option>
-            <option value="4">4 ambientes</option>
-            <option value="5">5 ambientes</option>
+          <select class="form-select col-9" id="ambientes" onchange="filterinmob()">
+            <option value="">Ambientes</option>
+            <option value="Monoambiente">Monoambiente</option>
+            <option value="2 ambientes">2 ambientes</option>
+            <option value="3 ambientes">3 ambientes</option>
+            <option value="4 ambientes">4 ambientes</option>
           </select>
         </div>
+        
       <br>
       <br>
       <br>
@@ -62,7 +68,6 @@
       </div>
       </div>
     </section>
-</form>
   
 
 <br>
@@ -79,6 +84,59 @@
 <br>
  
     
+<div class="row">
+      <div id="displayHere">
+      <?php
+      $queryinmo = "SELECT * FROM `propiedades` LIMIT 10";
+  if ($inmoresult = mysqli_query($myDbConnection, $queryinmo)) {
+      while ($inmo = mysqli_fetch_array($inmoresult)) {
+        $Unfilteredanunciante = $inmo['anunciante'];
+        $Unfilteredinmueble= $inmo['inmueble'];
+        $Unfilteredambientes = $inmo['ambientes'];
+                
+             ?>
+                <div class="col s12 m3">
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="" height="200">
+                      <span class="card-title">Food Category</span>
+                    </div>
+                    <div class="card-content">
+                      <p>
+                         <li> Anunciante: <?php echo $Unfilteredanunciante ?></li>
+                         <li> Tipo de inmueble:<?php echo $Unfilteredinmueble; ?></li>
+                         <li> Ambientes:<?php echo $Unfilteredambientes; ?></li>
+                      </p>
+                    </div>
+                    <br>
+                    <div class="card-action">
+                      <a href="#">Ver inmueble</a>
+                    </div>
+                  </div>
+                </div>
+                <br>
+             <?php
+      }
+    }  ?>      
+      </div>
+    </div>  
+     </div>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">
+  function filterinmob(){
+        var anunciante = document.getElementById('anunciante').value;
+        var inmueble = document.getElementById('inmueble').value;
+        var ambientes = document.getElementById('ambientes').value;
+
+       $.post('config/filterinmo.php', {anunciante1:anunciante,inmueble1:inmueble,ambientes1:ambientes,}, function(data){
+           $('#displayHere').html(data);
+        });      
+  }
+
+
+</script>
     </body>
     <?php include("includes/footer.php") ?>
     </html>

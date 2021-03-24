@@ -16,7 +16,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="container-fluid">
-                                        <select class="form-select col" name="tipo_anunciante">
+                                        <select class="form-select" name="anunciante">
                                             <option selected>Anunciante</option>
                                             <option value="Dueño directo">Dueño directo</option>
                                             <option value="Inmobiliaria">Inmobiliaria</option>
@@ -31,7 +31,17 @@
                                 </div>
                                 <div class="row">
                                     <div class="container-fluid">
-                                        <select class="form-select" name="tipo_inmueble">
+                                        <input type="text" name="correo" class="form-control" placeholder="Correo" autofocus><br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="container-fluid">
+                                        <input type="text" name="Telefono" class="form-control" placeholder="Telefono" autofocus><br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="container-fluid">
+                                        <select class="form-select" name="inmueble">
                                             <option selected>Tipo de Inmueble</option>
                                             <option value="Casa">Casa</option>
                                             <option value="Departamento">Departamento</option>
@@ -84,6 +94,16 @@
                                 </div>
                                 <div class="row">
                                     <div class="container-fluid">
+                                        <input type="text" name="latitud" class="form-control" placeholder="Latitud" autofocus><br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="container-fluid">
+                                        <input type="text" name="longitud" class="form-control" placeholder="Longitud" autofocus><br>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="container-fluid">
                                         <select class="form-select" name="cochera">
                                             <option selected>¿Tiene cochera?</option>
                                             <option value="No tiene cochera">Si</option>
@@ -124,7 +144,7 @@
                                 <br>
                                 <div class="row">
                                     <div class="container-fluid">
-                                        <textarea name="otros_detalles" rows="5" cols="43">Escribe aquí otros detalles</textarea><br>
+                                        <textarea name="otros_detalles" rows="5" cols="70">Escribe aquí otros detalles</textarea><br>
                                     </div>
                                 </div>
                                 <br>

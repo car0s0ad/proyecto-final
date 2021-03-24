@@ -22,9 +22,6 @@
         <a class="nav-link" href="../propiedades.php">Propiedades</a>
       </li>
       <li class="nav-item mx-1">
-        <a class="nav-link" href="../publicar.php">Publicar mi inmueble</a>
-      </li>
-      <li class="nav-item mx-1">
         <a class="nav-link" href="../sobreesteproyecto.php">Sobre este proyecto</a>
       </li>
       <li class="nav-item mr-5">

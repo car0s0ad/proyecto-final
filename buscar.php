@@ -17,7 +17,7 @@
 
     if (isset($_POST['consulta'])) {
     	$q = $conn->real_escape_string($_POST['consulta']);
-    	$query = "SELECT * FROM propiedades WHERE propiedad_id LIKE '%$q%' LIKE '%$q%' OR propiedad_titulo LIKE '%$q%' OR tipo_anunciante LIKE '%$q%' OR tipo_inmueble LIKE '$q' ";
+    	$query = "SELECT * FROM propiedades WHERE propiedad_id LIKE '%$q%' LIKE '%$q%' OR propiedad_titulo LIKE '%$q%' OR anunciante LIKE '%$q%' OR inmueble LIKE '$q' ";
     }
 
     $resultado = $conn->query($query);
@@ -45,8 +45,8 @@
     		$salida.="<tr>
     					<td>".$fila['propiedad_id']."</td>
     					<td>".$fila['propiedad_titulo']."</td>
-    					<td>".$fila['tipo_anunciante']."</td>
-    					<td>".$fila['tipo_inmueble']."</td>
+    					<td>".$fila['anunciante']."</td>
+    					<td>".$fila['inmueble']."</td>
     					<td>".$fila['operacion']."</td>
     				</tr>";
 

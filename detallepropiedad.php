@@ -15,9 +15,9 @@ if(!$result){
      while($property_result = mysqli_fetch_assoc($result)){
         $id = $property_result['propiedad_id'];
         $propiedad_titulo = $property_result['propiedad_titulo'];
-        $tipo_anunciante = $property_result['tipo_anunciante'];
+        $tipo_anunciante = $property_result['anunciante'];
         $nombre_anunciante = $property_result['nombre_anunciante'];
-        $tipo_inmueble = $property_result['tipo_inmueble'];
+        $tipo_inmueble = $property_result['inmueble'];
         $operacion = $property_result['operacion'];
         $metros_cuadrados = $property_result['metros_cuadrados'];
         $ambientes = $property_result['ambientes'];
