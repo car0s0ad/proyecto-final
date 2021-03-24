@@ -1,5 +1,5 @@
 <?php
- include('connect.php');
+ include('C:\xampp\htdocs\PROYECTOFINALINMOB\conexion.php');
 
 
 
@@ -32,7 +32,7 @@ if ($_POST) {
  		$queryinmo= "SELECT * FROM `propiedades` WHERE $anuncianteSearch AND $inmuebleSearch AND $ambientesSearch LIMIT 8";
  	}
 
- 	if ($result = mysqli_query($myDbConnection, $queryinmo)) {
+ 	if ($result = mysqli_query($con, $queryinmo)) {
  			while ($inmo = mysqli_fetch_array($result)) {
  				$filteredanunciante = $inmo['anunciante'];
  				$filteredinmueble = $inmo['inmueble'];
@@ -42,7 +42,7 @@ if ($_POST) {
 				          <div class="card">
 				            <div class="card-image">
 				              <img src="" height="200">
-				              <span class="card-title">Food Category</span>
+				              <span class="card-title">ACA VA LA FOTO</span>
 				            </div>
 				            <div class="card-content">
 				              <p>
@@ -52,7 +52,7 @@ if ($_POST) {
 				              </p>
 				            </div>
 				            <div class="card-action">
-				              <a href="#">Click Here to Buy</a>
+				              <a href="#">Visualizar inmueble</a>
 				            </div>
 				          </div>
 				        </div>
