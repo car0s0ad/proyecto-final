@@ -60,7 +60,8 @@ if(!$result){
                                     <h4 class="balcon">Balcón: <?php echo $balcon; ?></h4>
                                     <h4 class="mascotas">Pet-friendly <i class="las la-dog"></i> : <?php echo $mascotas; ?></h4>
                                     <h4 class="niños">Family-friendly <i class="las la-baby-carriage"></i> : <?php echo $ninos; ?></h4>
-                                    <h4 class="otros_detalles">Otros Detalles: <?php echo $otros_detalles; ?></h4>                          
+                                    <h4 class="otros_detalles">Otros Detalles: <?php echo $otros_detalles; ?></h4>
+                                                              
                                 </div>
                             </div>
                         </div>

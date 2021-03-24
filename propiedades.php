@@ -10,7 +10,6 @@ if(!$result){
 	echo "Error";
 }
 ?>
-
     <?php 
      while($property_result = mysqli_fetch_assoc($result)){
         $id = $property_result['propiedad_id'];

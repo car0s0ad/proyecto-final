@@ -110,7 +110,7 @@
                     </div>
                     <br>
                     <div class="card-action">
-                      <a href="#">Ver inmueble</a>
+                      <a href="detallepropiedad.php?id=<?php echo $id; ?>">Ver inmueble</a>
                     </div>
                   </div>
                 </div>
