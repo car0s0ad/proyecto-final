@@ -1,6 +1,6 @@
 <?php include("includes/header.php") ?>
 <?php include("includes/bootstrap.html") ?>
-<?php include('config/connect.php'); ?>
+<?php include('conexion.php'); ?>
     <html class="h-100">
     <head>
       <!--Import Google Icon Font-->
@@ -27,7 +27,7 @@
     <div class="recuadrito">
       <div class="row">
         <div class="container-fluid">
-          <select class="form-select col-9" id="anunciante" onchange="filterinmob()">
+          <select class="form-select col-9" id="anunciante">
             <option value="">Tipo anunciante</option>
             <option value="Dueño directo">Dueño directo</option>
             <option value="Inmobiliaria">Inmobiliaria</option>
@@ -37,7 +37,7 @@
     <br>
       <div class="row">
         <div class="container-fluid">
-          <select class="form-select col-9" id="inmueble" onchange="filterinmob()">
+          <select class="form-select col-9" id="inmueble">
             <option value="">Tipo de Inmueble</option>
             <option value="Casa">Casa</option>
             <option value="Departamento">Departamento</option>
@@ -48,7 +48,7 @@
       <br>
       <div class="row">
         <div class="container-fluid">
-          <select class="form-select col-9" id="ambientes" onchange="filterinmob()">
+          <select class="form-select col-9" id="ambientes">
             <option value="">Ambientes</option>
             <option value="Monoambiente">Monoambiente</option>
             <option value="2 ambientes">2 ambientes</option>
@@ -63,7 +63,7 @@
       <br>
       <div class="row col-5">
       <div class="container-fluid justify-content-center">
-      <input type="submit" value="Buscar"></a>
+      <input type="submit" value="Buscar" onclick="filterinmob()"></a>
       </div>
       </div>
       </div>
@@ -88,7 +88,7 @@
       <div id="displayHere">
       <?php
       $queryinmo = "SELECT * FROM `propiedades` LIMIT 10";
-  if ($inmoresult = mysqli_query($myDbConnection, $queryinmo)) {
+  if ($inmoresult = mysqli_query($con, $queryinmo)) {
       while ($inmo = mysqli_fetch_array($inmoresult)) {
         $Unfilteredanunciante = $inmo['anunciante'];
         $Unfilteredinmueble= $inmo['inmueble'];
