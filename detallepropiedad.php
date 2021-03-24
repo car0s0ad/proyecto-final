@@ -45,26 +45,43 @@ if(!$result){
                 </section>
                 <section class= "col-md-8 mx-auto">
                     <div class="row align-items-center mx-5">
-                        <div class="col- py-5">
-                            <div class="shadow">
-                                <div class="box-image d-flex align-items-center justify-content-center py-5">
-                                    <img src="<?php echo $propiedad_img; ?>" class="img-fluid" alt="propiedad">
-                                </div>
-                                <div class="box-content text-center py-4">
-                                    <h4 class="precio">Precio: $<?php echo $precio; ?></h4>
-                                    <h4 class="expensas">Expensas/gastos: $<?php echo $expensas; ?></h4>
-                                    <h4 class="direccion">Dirección: <?php echo $direccion; ?></h4>
-                                    <h4 class="ambientes">Ambientes: <?php echo $ambientes; ?></h4>                        
-                                    <h4 class="metros_cuadrados">Metros cuadrados: <?php echo $metros_cuadrados; ?></h4>
-                                    <h4 class="cochera">Cochera: <?php echo $cochera; ?></h4>
-                                    <h4 class="balcon">Balcón: <?php echo $balcon; ?></h4>
-                                    <h4 class="mascotas">Pet-friendly <i class="las la-dog"></i> : <?php echo $mascotas; ?></h4>
-                                    <h4 class="niños">Family-friendly <i class="las la-baby-carriage"></i> : <?php echo $ninos; ?></h4>
-                                    <h4 class="otros_detalles">Otros Detalles: <?php echo $otros_detalles; ?></h4>
-                                                              
-                                </div>
-                            </div>
-                        </div>
+                            <div class="col- py-5">
+                                    <div class="shadow">
+                                            <div id="carouselControls" class="carousel slide" data-ride="carousel">
+                                               <div class="carousel-inner">
+                                                        <div class="carousel-item active align-items-center justify-content-center">
+                                                             <img src="<?php echo $propiedad_img; ?>" class="img-fluid" alt="propiedad">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                             <img class="d-block w-100" src="..." alt="Second slide">
+                                                         </div>
+                                                         <div class="carousel-item">
+                                                              <img class="d-block w-100" src="..." alt="Third slide">
+                                                         </div>
+                                                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                <span class="sr-only">Previous</span>
+                                                            </a>
+                                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                            <span class="sr-only">Next</span>
+                                                        </a>
+                                                 </div>
+                                            </div>
+                                            <div class="box-content text-center py-4">
+                                                <h4 class="precio">Precio: $<?php echo $precio; ?></h4>
+                                                <h4 class="expensas">Expensas/gastos: $<?php echo $expensas; ?></h4>
+                                                <h4 class="direccion">Dirección: <?php echo $direccion; ?></h4>
+                                                <h4 class="ambientes">Ambientes: <?php echo $ambientes; ?></h4>                        
+                                                <h4 class="metros_cuadrados">Metros cuadrados: <?php echo $metros_cuadrados; ?></h4>
+                                                <h4 class="cochera">Cochera: <?php echo $cochera; ?></h4>
+                                                <h4 class="balcon">Balcón: <?php echo $balcon; ?></h4>
+                                                <h4 class="mascotas">Pet-friendly <i class="las la-dog"></i> : <?php echo $mascotas; ?></h4>
+                                                <h4 class="niños">Family-friendly <i class="las la-baby-carriage"></i> : <?php echo $ninos; ?></h4>
+                                                <h4 class="otros_detalles">Otros Detalles: <?php echo $otros_detalles; ?></h4>
+                                            </div>                                                
+                                     </div>
+                             </div>
                     </div>
                 </section>
           </main>  
