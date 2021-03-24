@@ -1,5 +1,5 @@
 <?php
- include('C:\xampp\htdocs\PROYECTOFINALINMOB\conexion.php');
+ include('.\conexion.php');
 
 
 

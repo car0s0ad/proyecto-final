@@ -95,7 +95,7 @@
         $Unfilteredambientes = $inmo['ambientes'];
                 
              ?>
-                <div class="col s12 m3">
+                <!-- <div class="col s12 m3">
                   <div class="card">
                     <div class="card-image">
                       <img src="" height="200">
@@ -114,7 +114,7 @@
                     </div>
                   </div>
                 </div>
-                <br>
+                <br> -->
              <?php
       }
     }  ?>      
