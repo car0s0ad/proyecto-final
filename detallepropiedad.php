@@ -68,18 +68,20 @@ if(!$result){
                                                         </a>
                                                  </div>
                                             </div>
-                                            <div class="box-content text-center py-4">
-                                                <h4 class="precio">Precio: $<?php echo $precio; ?></h4>
-                                                <h4 class="expensas">Expensas/gastos: $<?php echo $expensas; ?></h4>
-                                                <h4 class="direccion">Dirección: <?php echo $direccion; ?></h4>
-                                                <h4 class="ambientes">Ambientes: <?php echo $ambientes; ?></h4>                        
-                                                <h4 class="metros_cuadrados">Metros cuadrados: <?php echo $metros_cuadrados; ?></h4>
-                                                <h4 class="cochera">Cochera: <?php echo $cochera; ?></h4>
-                                                <h4 class="balcon">Balcón: <?php echo $balcon; ?></h4>
-                                                <h4 class="mascotas">Pet-friendly <i class="las la-dog"></i> : <?php echo $mascotas; ?></h4>
-                                                <h4 class="niños">Family-friendly <i class="las la-baby-carriage"></i> : <?php echo $ninos; ?></h4>
-                                                <h4 class="otros_detalles">Otros Detalles: <?php echo $otros_detalles; ?></h4>
-                                            </div>                                                
+                                            <div class="box-content">
+                                                   <ul class="list-group text-center">
+                                                        <li class="list-group-item list-group-item-action">Precio: $<?php echo $precio; ?></li>
+                                                        <li class="list-group-item list-group-item-action list-group-item-secondary">Expensas/gastos: $<?php echo $expensas; ?></li>
+                                                        <li class="list-group-item list-group-item-action">Dirección: <?php echo $direccion; ?></li>
+                                                        <li class="list-group-item list-group-item-action list-group-item-secondary">Ambientes: <?php echo $ambientes; ?></li>                        
+                                                        <li class="list-group-item list-group-item-action">Metros cuadrados: <?php echo $metros_cuadrados; ?></li>
+                                                        <li class="list-group-item list-group-item-action list-group-item-secondary">Cochera: <?php echo $cochera; ?></li>
+                                                        <li class="list-group-item list-group-item-action">Balcón: <?php echo $balcon; ?></li>
+                                                        <li class="list-group-item list-group-item-action list-group-item-secondary">Pet-friendly <i class="las la-dog"></i> : <?php echo $mascotas; ?></li>
+                                                        <li class="list-group-item list-group-item-action">Family-friendly <i class="las la-baby-carriage"></i> : <?php echo $ninos; ?></li>
+                                                        <li class="list-group-item list-group-item-action list-group-item-secondary">Otros Detalles: <?php echo $otros_detalles; ?></li>
+                                                   </ul>
+                                             </div>                                                
                                      </div>
                              </div>
                     </div>

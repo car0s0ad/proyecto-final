@@ -169,7 +169,11 @@ a[class=".btn-primary"]:hover {
   background: #805690;
 }
 
-
+ul {    
+  font-family: Mukta;
+  font-size: 20px;
+  color: black;
+}
 
 .table td {
   transition: all .5s;
