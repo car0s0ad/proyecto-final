@@ -1,5 +1,5 @@
 <?php
- include('connect.php');
+ include('C:\xampp\htdocs\PROYECTOFINALINMOB\conexion.php');
 
 
 
@@ -32,7 +32,7 @@ if ($_POST) {
  		$queryinmo= "SELECT * FROM `propiedades` WHERE $anuncianteSearch AND $inmuebleSearch AND $ambientesSearch LIMIT 8";
  	}
 
- 	if ($result = mysqli_query($myDbConnection, $queryinmo)) {
+ 	if ($result = mysqli_query($con, $queryinmo)) {
  			while ($inmo = mysqli_fetch_array($result)) {
  				$filteredanunciante = $inmo['anunciante'];
  				$filteredinmueble = $inmo['inmueble'];
