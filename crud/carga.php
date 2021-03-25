@@ -126,8 +126,8 @@
                                     <div class="container-fluid">
                                         <select class="form-select" name="mascotas">
                                             <option selected>¿Se permiten mascotas?</option>
-                                            <option value="Se permiten mascotas">Si</option>
-                                            <option value="No se permiten mascotas">No</option>
+                                            <option value="Se permiten">Si</option>
+                                            <option value="No se permiten">No</option>
                                         </select>
                                     </div>
                                 </div>
@@ -136,8 +136,8 @@
                                     <div class="container-fluid">
                                         <select class="form-select" name="ninos">
                                             <option selected>¿Se permiten niños?</option>
-                                            <option value="Se permiten niños">Si</option>
-                                            <option value="No se permiten niños">No</option>
+                                            <option value="Se permiten">Si</option>
+                                            <option value="No se permiten">No</option>
                                         </select>
                                     </div>
                                 </div>
