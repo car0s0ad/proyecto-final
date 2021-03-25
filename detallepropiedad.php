@@ -47,16 +47,16 @@ if(!$result){
                     <div class="row align-items-center mx-5">
                             <div class="col- py-5">
                                     <div class="shadow">
-                                            <div id="carouselControls" class="carousel slide" data-ride="carousel">
+                                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                                <div class="carousel-inner">
                                                         <div class="carousel-item active align-items-center justify-content-center">
                                                              <img src="<?php echo $propiedad_img; ?>" class="img-fluid" alt="propiedad">
                                                         </div>
                                                         <div class="carousel-item">
-                                                             <img class="d-block w-100" src="..." alt="Second slide">
+                                                             <img class="d-block w-50" src="..." alt="Second slide">
                                                          </div>
                                                          <div class="carousel-item">
-                                                              <img class="d-block w-100" src="..." alt="Third slide">
+                                                              <img class="d-block w-50" src="..." alt="Third slide">
                                                          </div>
                                                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
