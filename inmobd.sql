@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 24-03-2021 a las 00:27:49
+-- Tiempo de generación: 28-03-2021 a las 22:14:35
 -- Versión del servidor: 10.4.18-MariaDB
 -- Versión de PHP: 8.0.3
 
@@ -40,6 +40,8 @@ CREATE TABLE `propiedades` (
   `expensas` float DEFAULT NULL,
   `direccion` varchar(200) DEFAULT NULL,
   `propiedad_img` varchar(200) DEFAULT NULL,
+  `propiedad_img2` varchar(255) NOT NULL,
+  `propiedad_img3` varchar(255) NOT NULL,
   `otros_detalles` text DEFAULT NULL,
   `cochera` varchar(255) NOT NULL,
   `balcon` varchar(255) NOT NULL,
@@ -103,7 +105,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `propiedades`
 --
 ALTER TABLE `propiedades`
-  MODIFY `propiedad_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `propiedad_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- AUTO_INCREMENT de la tabla `propiedades_imagen`
