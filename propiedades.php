@@ -24,6 +24,8 @@ if(!$result){
         $expensas = $property_result['expensas'];
         $direccion = $property_result['direccion'];
         $propiedad_img = $property_result['propiedad_img'];
+        $propiedad_img = $property_result['propiedad_img2'];
+        $propiedad_img = $property_result['propiedad_img3'];
         $cochera = $property_result['cochera'];
         $balcon = $property_result['balcon'];
         $mascotas = $property_result['mascotas'];

@@ -25,6 +25,8 @@ if(!$result){
         $expensas = $property_result['expensas'];
         $direccion = $property_result['direccion'];
         $propiedad_img = $property_result['propiedad_img'];
+        $propiedad_img2 = $property_result['propiedad_img2'];
+        $propiedad_img3 = $property_result['propiedad_img3'];
         $cochera = $property_result['cochera'];
         $balcon = $property_result['balcon'];
         $mascotas = $property_result['mascotas'];
@@ -53,10 +55,10 @@ if(!$result){
                                                              <img src="<?php echo $propiedad_img; ?>" class="img-fluid" alt="propiedad">
                                                         </div>
                                                         <div class="carousel-item">
-                                                             <img class="d-block w-50" src="..." alt="Second slide">
+                                                             <img src="<?php echo $propiedad_img2; ?>" class="img-fluid" alt="propiedad2">
                                                          </div>
                                                          <div class="carousel-item">
-                                                              <img class="d-block w-50" src="..." alt="Third slide">
+                                                             <img src="<?php echo $propiedad_img3; ?>" class="img-fluid" alt="propiedad3">
                                                          </div>
                                                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
