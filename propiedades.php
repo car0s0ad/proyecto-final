@@ -39,36 +39,35 @@ if(!$result){
                   <h1>Propiedades</h1>
                </div>
             </div> 
-
-    <?php 
-     $query = "SELECT * FROM propiedades";
-     $property_result = mysqli_query($con, $query);
-     while ($col = mysqli_fetch_array($property_result)) { ?>
-      <html class="h-100">
-      <body class="d-flex flex-column h-100">
+<html class="h-100">
+    <body class="d-flex flex-column h-100">
         <main role="main"></main>    
           <section>
               <div class="container-fluid">
                     <div class="row align-items-center mx-5">
-                        <div class="col-sm-6 col-md-3 pb-4">
-                            <div class="shadow">
-                                <div class="box-image d-flex align-items-center justify-content-center py-5">
-                                    <img src="<?php echo $propiedad_img; ?>" class="img-fluid" alt="propiedad">
-                                </div>
-                                <div class="box-content text-center py-4">
-                                    <h4><a href="detallepropiedad.php?id=<?php echo $id; ?>"><?PHP echo $col['propiedad_titulo'] ?></a></h4>
-                                    <h4 class="price">Precio: $<?PHP echo $col['precio'] ?> </h4>
-                                    <h4 class="direccion">Dirección: <?PHP echo $col['direccion'] ?></h4>
-                                    <h4 class="ambientes">Ambientes: <?PHP echo $col['ambientes'] ?></h4>
-                                    <br>
-                                    <a class="btn btn-primary" href="detallepropiedad.php?id=<?php echo $id; ?>">Ver Detalle</a>
-                                </div>
-                            </div>
-                        </div>
+                        <?php 
+                            $query = "SELECT * FROM propiedades";
+                            $property_result = mysqli_query($con, $query);
+                            while ($col = mysqli_fetch_array($property_result)) { ?>
+                                            <div class="col-sm-6 col-md-3 pb-4">
+                                                <div class="shadow">
+                                                    <div class="box-image d-flex align-items-center justify-content-center py-5">
+                                                        <img src="<?php echo $propiedad_img; ?>" class="img-fluid" alt="propiedad">
+                                                    </div>
+                                                    <div class="box-content text-center py-4">
+                                                        <h4><a href="detallepropiedad.php?id=<?php echo $id; ?>"><?PHP echo $col['propiedad_titulo'] ?></a></h4>
+                                                        <h4 class="price">Precio: $<?PHP echo $col['precio'] ?> </h4>
+                                                        <h4 class="direccion">Dirección: <?PHP echo $col['direccion'] ?></h4>
+                                                        <h4 class="ambientes">Ambientes: <?PHP echo $col['ambientes'] ?></h4>
+                                                        <br>
+                                                        <a class="btn btn-primary" href="detallepropiedad.php?id=<?php echo $id; ?>">Ver Detalle</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                        <?PHP } ?>
                     </div>
-              </div>
-         </section>
-    <?PHP } ?>
-    </body>
-    <?php include("includes/footer.php") ?>
-    </html>
+                </div>
+            </section>
+        </body>
+        <?php include("includes/footer.php") ?>
+</html>
