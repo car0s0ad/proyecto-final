@@ -123,7 +123,7 @@
         var inmueble = document.getElementById('inmueble').value;
         var ambientes = document.getElementById('ambientes').value;
 
-       $.post('config/filterinmo.php', {anunciante1:anunciante,inmueble1:inmueble,ambientes1:ambientes,}, function(data){
+       $.post('filterinmo.php', {anunciante1:anunciante,inmueble1:inmueble,ambientes1:ambientes,}, function(data){
            $('#displayHere').html(data);
         });      
   }

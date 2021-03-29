@@ -82,6 +82,10 @@ if(!$result){
                                                         <li class="list-group-item list-group-item-action list-group-item-secondary">Pet-friendly <i class="las la-dog"></i> : <?php echo $mascotas; ?></li>
                                                         <li class="list-group-item list-group-item-action">Family-friendly <i class="las la-baby-carriage"></i> : <?php echo $ninos; ?></li>
                                                         <li class="list-group-item list-group-item-action list-group-item-secondary">Otros Detalles: <?php echo $otros_detalles; ?></li>
+                                                        <br>
+                                                        <h4> Ubicación </h4>
+                                                        <br>
+                                                        <li>  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.6143014950007!2d-55.90208648509199!3d-27.356524282938498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457be28d13000e7%3A0xfecd6384422fa5cc!2sAv.%20Gdor.%20Roca%2C%20Posadas%2C%20Misiones!5e0!3m2!1ses!2sar!4v1617046250087!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></li>
                                                    </ul>
                                              </div>                                                
                                      </div>
