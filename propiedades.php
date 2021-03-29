@@ -54,7 +54,7 @@ if(!$result){
                                                             <div class="col-sm-6 col-md-3 pb-5">
                                                                 <div class="shadow">
                                                                     <div class="box-image d-flex align-items-center justify-content-center">
-                                                                        <img src="<?php echo $propiedad_img; ?>" class="img-fluid" alt="propiedad">
+                                                                        <img src="<?php echo $col['propiedad_img']; ?>" class="img-fluid" alt="propiedad">
                                                                     </div>
                                                                     <div class="box-content text-center py-4">
                                                                         <h4><a href="detallepropiedad.php?id=<?php echo $id; ?>"><?PHP echo $col['propiedad_titulo'] ?></a></h4>
