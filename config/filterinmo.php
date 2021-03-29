@@ -29,44 +29,45 @@ if ($_POST) {
  		} 
  		$queryinmo= "SELECT * FROM `propiedades` WHERE $anuncianteSearch AND $inmuebleSearch AND $ambientesSearch LIMIT 8";
  	}
-
- 	if ($result = mysqli_query($con, $queryinmo)) {
- 			while ($inmo = mysqli_fetch_array($result)) {
- 				$filteredanunciante = $inmo['anunciante'];
- 				$filteredinmueble = $inmo['inmueble'];
- 				$filteredambientes = $inmo['ambientes'];
-				$id = $inmo['propiedad_id'];
-             ?>
-				<html class="h-100">
-				<body class="d-flex flex-column h-100">
-					<main role="main"></main>    
-					<section>
-						<div class="container-fluid">
-								<div class="row align-items-center mx-5">
-									<div class="col-sm-6 col-md-3 pb-4">
-										<div class="shadow">
-											<div class="box-image d-flex align-items-center justify-content-center py-5">
-												<img src="<?php echo $propiedad_img; ?>" class="img-fluid" alt="propiedad">
-											</div>
-											<div class="box-content text-center py-4">
-												<h4><a href="detallepropiedad.php?id=<?php echo $id; ?>"><?PHP echo $inmo['propiedad_titulo'] ?></a></h4>
-												<h4 class="price">Precio: $<?PHP echo $inmo['precio'] ?> </h4>
-												<h4 class="direccion">Dirección: <?PHP echo $inmo['direccion'] ?></h4>
-												<h4 class="ambientes">Ambientes: <?PHP echo $inmo['ambientes'] ?></h4>
-												<br>
-												<a href="detallepropiedad.php?id=<?php echo $id; ?>">
-												<input type="submit" value="Buscar" ><a href="detallepropiedad.php?id=<?php echo $id; ?>"></a>
-
-											</div>
-										</div>
-									</div>
-								</div>
-						</div>
-					</section>
-				</body>
-				</html>
-             <?php
- 			}
- 		}	
-}
 ?>
+	 <html class="h-100">
+     <body class="d-flex flex-column h-100">
+            <main role="main"></main>    
+                    <section>
+                            <div class="container-fluid">
+                                    <div class="row align-items-center mx-5">
+                                            <?php 
+                                                if ($result = mysqli_query($con, $queryinmo)) {
+                                                    while ($inmo = mysqli_fetch_array($result)) {
+                                                        $filteredanunciante = $inmo['anunciante'];
+                                                        $filteredinmueble = $inmo['inmueble'];
+                                                        $filteredambientes = $inmo['ambientes'];
+                                                        $id = $inmo['propiedad_id'];
+                                             ?>
+                                                            <div class="col-sm-6 col-md-3 pb-5">
+                                                                <div class="shadow">
+                                                                    <div class="box-image d-flex align-items-center justify-content-center">
+                                                                        <img src="<?php echo $propiedad_img; ?>" class="img-fluid" alt="propiedad">
+                                                                    </div>
+                                                                    <div class="box-content text-center py-4">
+                                                                        <h4><a href="detallepropiedad.php?id=<?php echo $id; ?>"><?PHP echo $inmo['propiedad_titulo'] ?></a></h4>
+                                                                        <h4 class="price">Precio: $<?PHP echo $inmo['precio'] ?> </h4>
+                                                                        <h4 class="direccion">Dirección: <?PHP echo $inmo['direccion'] ?></h4>
+                                                                        <h4 class="ambientes">Ambientes: <?PHP echo $inmo['ambientes'] ?></h4>
+                                                                        <br>
+                                                                        <a href="detallepropiedad.php?id=<?php echo $id; ?>">
+                                                                        <input type="submit" value="Ver detalles"><a href="detallepropiedad.php?id=<?php echo $id; ?>"></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <?php
+ 			                                                }
+ 		                                                    }	
+                                                            }
+                                                            ?>
+                                    </div>
+                            </div>
+                    </section>
+            </main>
+      </body>
+</html>

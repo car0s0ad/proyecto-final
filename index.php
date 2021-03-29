@@ -50,10 +50,10 @@
         <div class="container-fluid">
           <select class="form-select col-9" id="ambientes">
             <option value="">Ambientes</option>
-            <option value="Monoambiente">Monoambiente</option>
-            <option value="2 ambientes">2 ambientes</option>
-            <option value="3 ambientes">3 ambientes</option>
-            <option value="4 ambientes">4 ambientes</option>
+            <option value="1">Monoambiente</option>
+            <option value="2">2 ambientes</option>
+            <option value="3">3 ambientes</option>
+            <option value="4">4 ambientes</option>
           </select>
         </div>
         
