@@ -50,10 +50,10 @@
         <div class="container-fluid">
           <select class="form-select col-9" id="ambientes">
             <option value="">Ambientes</option>
-            <option value="Monoambiente">Monoambiente</option>
-            <option value="2 ambientes">2 ambientes</option>
-            <option value="3 ambientes">3 ambientes</option>
-            <option value="4 ambientes">4 ambientes</option>
+            <option value="1">Monoambiente</option>
+            <option value="2">2 ambientes</option>
+            <option value="3">3 ambientes</option>
+            <option value="4">4 ambientes</option>
           </select>
         </div>
         
@@ -123,7 +123,7 @@
         var inmueble = document.getElementById('inmueble').value;
         var ambientes = document.getElementById('ambientes').value;
 
-       $.post('config/filterinmo.php', {anunciante1:anunciante,inmueble1:inmueble,ambientes1:ambientes,}, function(data){
+       $.post('filterinmo.php', {anunciante1:anunciante,inmueble1:inmueble,ambientes1:ambientes,}, function(data){
            $('#displayHere').html(data);
         });      
   }
