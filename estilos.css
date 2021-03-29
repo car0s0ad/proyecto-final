@@ -155,19 +155,19 @@ p{
   
 }
 
-a[class=".btn-primary"] {
-  cursor: pointer;
-  border: 1px solid #805690;
-  background: #ffffff;
-  border-radius: 5px;
-  box-shadow: 2px 2px 15px #ccc;
-  transition: 150ms linear all;
-  font-family: Mukta;
-}
+  .btn-primary {
+    cursor: pointer;
+    border: 1px solid #805690;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px #ccc;
+    transition: 150ms linear all;
+    font-family: Mukta;
+  }
 
-a[class=".btn-primary"]:hover {
-  background: #805690;
-}
+  .btn-primary:hover {
+    background: #805690;
+  }
 
 ul {    
   font-family: Mukta;
