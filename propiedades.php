@@ -62,7 +62,8 @@ if(!$result){
                                                                         <h4 class="direccion">Dirección: <?PHP echo $col['direccion'] ?></h4>
                                                                         <h4 class="ambientes">Ambientes: <?PHP echo $col['ambientes'] ?></h4>
                                                                         <br>
-                                                                        <a class="btn btn-primary" href="detallepropiedad.php?id=<?php echo $id; ?>">Ver Detalle</a>
+                                                                        <a href="detallepropiedad.php?id=<?php echo $id; ?>">
+                                                                        <input type="submit" value="Ver detalles"><a href="detallepropiedad.php?id=<?php echo $id; ?>"></a>
                                                                     </div>
                                                                 </div>
                                                             </div>
