@@ -57,12 +57,6 @@ CREATE TABLE `propiedades` (
 --
 -- Estructura de tabla para la tabla `propiedades_imagen`
 --
-
-CREATE TABLE `propiedades_imagen` (
-  `propiedades_imagenes` varchar(200) DEFAULT NULL,
-  `propiedad_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
 -- --------------------------------------------------------
 
 --
@@ -88,9 +82,6 @@ ALTER TABLE `propiedades`
 --
 -- Indices de la tabla `propiedades_imagen`
 --
-ALTER TABLE `propiedades_imagen`
-  ADD PRIMARY KEY (`propiedad_id`);
-
 --
 -- Indices de la tabla `users`
 --
@@ -110,8 +101,6 @@ ALTER TABLE `propiedades`
 --
 -- AUTO_INCREMENT de la tabla `propiedades_imagen`
 --
-ALTER TABLE `propiedades_imagen`
-  MODIFY `propiedad_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `users`
